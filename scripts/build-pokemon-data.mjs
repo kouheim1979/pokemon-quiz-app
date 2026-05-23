@@ -21,8 +21,7 @@ const GEN_JA = { "generation-i":"第1世代", "generation-ii":"第2世代", "gen
 
 async function fetchJson(url) {
   await mkdir(CACHE_DIR, { recursive: true });
-  const safe = Buffer.from(url).toString("base64url") + ".json";
-  const file = path.join(CACHE_DIR, safe);
+  const file = path.join(CACHE_DIR, Buffer.from(url).toString("base64url") + ".json");
   if (existsSync(file)) return JSON.parse(await readFile(file, "utf8"));
   const res = await fetch(url, { headers: { "user-agent": "pokemon-quiz-app-data-builder" } });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
@@ -41,11 +40,11 @@ function genusJa(genera, fallback) {
   return genera?.find(g => g.language.name === "ja-Hrkt")?.genus || genera?.find(g => g.language.name === "ja")?.genus || genera?.find(g => g.language.name === "en")?.genus || fallback;
 }
 function cap(s) { return String(s || "").charAt(0).toUpperCase() + String(s || "").slice(1); }
-function pokemonIdFromUrl(url) { return Number(url.match(/\/pokemon-species\/(\d+)\//)?.[1] || 0); }
+function idFromSpeciesUrl(url) { return Number(url.match(/\/pokemon-species\/(\d+)\//)?.[1] || 0); }
+function imageUrl(id) { return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`; }
 
 function inferActivity(types, habitat) {
   if (types.includes("ゴースト") || types.includes("あく")) return "夜型";
-  if (types.includes("でんき")) return "昼型";
   if (habitat === "洞窟") return "夜型";
   if (habitat === "海" || habitat === "水辺") return "昼夜どちらも";
   return "昼型";
@@ -62,7 +61,6 @@ function inferDiet(types, habitat) {
 function inferLevel(id, isLegendary, isMythical) {
   if (isLegendary || isMythical) return "hard";
   if (id <= 151) return "easy";
-  if (id % 3 === 0) return "normal";
   return "normal";
 }
 function makeStats(types, id, isLegendary, isMythical) {
@@ -90,26 +88,24 @@ function makeFeatures(p) {
   return [...new Set(f)].slice(0, 4);
 }
 function makeHints(p) {
-  const hints = [];
-  hints.push(`${p.types.join("・")}タイプのポケモン。`);
-  if (p.genus && p.genus !== "不明") hints.push(`分類は「${p.genus}」。`);
-  hints.push(`${p.region}地方に関係が深い。`);
-  hints.push(`高さは約${p.heightM}m、重さは約${p.weightKg}kg。`);
-  return hints.slice(0, 3);
+  return [
+    `${p.types.join("・")}タイプ。`,
+    p.genus && p.genus !== "不明" ? `分類は「${p.genus}」。` : `${p.region}地方に関係が深い。`,
+    `英語名は ${p.name.en}（${p.name.enKana}）。`
+  ];
 }
 function makeDescription(p) {
   const typeText = p.types.join("・");
   const habitatText = p.habitat && p.habitat !== "不明" ? `${p.habitat}に適応し、` : "";
-  return `${p.name.ja}は${typeText}タイプの${p.genus}です。${habitatText}${p.shape}の体つきや${p.color}系の特徴を持ちます。図鑑学習では、タイプ・すがた・生息イメージを合わせて覚えると当てやすくなります。`;
+  return `${p.name.ja}は${typeText}タイプの${p.genus}です。英語名は${p.name.en}（${p.name.enKana}）です。${habitatText}${p.shape}の体つきや${p.color}系の特徴を持ちます。`;
 }
 async function buildEvolutionText(species) {
   if (!species.evolution_chain?.url) return "進化情報なし";
   const chain = await fetchJson(species.evolution_chain.url);
   const paths = [];
   function walk(node, acc) {
-    const name = node.species?.name || "unknown";
-    const id = pokemonIdFromUrl(node.species?.url || "");
-    const label = id ? `#${id}` : name;
+    const id = idFromSpeciesUrl(node.species?.url || "");
+    const label = id ? `#${id}` : node.species?.name || "unknown";
     const next = [...acc, label];
     if (!node.evolves_to || node.evolves_to.length === 0) paths.push(next);
     else node.evolves_to.forEach(child => walk(child, next));
@@ -122,11 +118,14 @@ async function buildOne(id) {
   const pokemon = await fetchJson(`${API}/pokemon/${id}/`);
   const types = pokemon.types.sort((a,b)=>a.slot-b.slot).map(t => TYPE_JA[t.type.name] || t.type.name);
   const genName = species.generation?.name || "";
+  const jaName = pickJa(species.names, cap(species.name));
+  const enName = pickEn(species.names, cap(species.name));
   const obj = {
     id,
     slug: species.name,
-    name: { ja: pickJa(species.names, cap(species.name)), en: pickEn(species.names, cap(species.name)) },
-    aliases: [],
+    name: { ja: jaName, en: enName, enKana: jaName },
+    aliases: [jaName, enName, species.name].filter(Boolean),
+    imageUrl: imageUrl(id),
     region: REGION_BY_GEN[genName] || "不明",
     generation: GEN_JA[genName] || genName || "不明",
     types,
@@ -145,7 +144,6 @@ async function buildOne(id) {
     stats: {},
     level: inferLevel(id, species.is_legendary, species.is_mythical)
   };
-  obj.aliases = [obj.name.ja, obj.name.en, species.name].filter(Boolean);
   obj.activity = inferActivity(obj.types, obj.habitat);
   obj.diet = inferDiet(obj.types, obj.habitat);
   obj.stats = makeStats(obj.types, id, species.is_legendary, species.is_mythical);
@@ -171,19 +169,17 @@ async function main() {
   const ids = Array.from({ length: MAX_SPECIES }, (_, i) => i + 1);
   const pokemon = await mapLimit(ids, CONCURRENCY, buildOne);
   pokemon.sort((a,b)=>a.id-b.id);
-  const data = {
+  await writeFile(OUT, JSON.stringify({
     meta: {
-      schemaVersion: 2,
+      schemaVersion: 3,
       mode: "full",
       count: pokemon.length,
-      source: "PokéAPI structured data",
+      source: "PokéAPI structured data + official-artwork sprite URL",
       generatedAt: new Date().toISOString(),
       note: "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。"
     },
     pokemon
-  };
-  await writeFile(OUT, JSON.stringify(data, null, 2), "utf8");
+  }, null, 2), "utf8");
   console.log(`wrote ${OUT} (${pokemon.length} pokemon)`);
 }
-
 main().catch(err => { console.error(err); process.exit(1); });
