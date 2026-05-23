@@ -1,0 +1,30 @@
+name: Build Pokemon Data JSON
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/build-pokemon-data.mjs
+      - package.json
+      - .github/workflows/build-pokemon-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build pokemon-data.json
+        run: npm run build:data
+      - name: Commit generated JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build full pokemon-data.json"
+          file_pattern: pokemon-data.json
