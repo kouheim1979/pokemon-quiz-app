@@ -14,7 +14,7 @@
   <div class="app">
     <header class="hero">
       <div class="heroTop"><div><h1>ポケモン当てクイズ<br>＆ JSON図鑑</h1><p class="lead">ポケモン情報は <b>pokemon-data.json</b> から読み込みます。クイズと図鑑を切り替えて遊べます。</p></div><div class="chip"><span class="ball"></span><span id="dataCount">データ読込中</span></div></div>
-      <div class="tabs"><button class="tab active" data-view="quiz">クイズモード</button><button class="tab" data-view="dex">図解モード</button></div>
+      <div class="tabs"><button class="tab active" data-view="quiz">クイズモード</button><button class="tab" data-view="dex">図鑑モード</button></div>
     </header>
 
     <section id="quiz" class="view active"><div class="grid quizGrid">
@@ -23,7 +23,7 @@
       <main class="card board"><div class="qno" id="qno">データを読み込んでいます</div><div class="emblem"><div class="core"><span class="letter" id="letter">?</span></div></div><div class="masked" id="masked">？？？？</div><div class="badges" id="typeBadges"></div><div class="hint"><h3>ヒント</h3><ol id="hints"><li>新しい問題を押すと出題されます。</li></ol></div><div class="row two"><button class="subBtn" id="hintBtn" disabled>追加ヒント</button><button class="ghostBtn" id="answerBtn" disabled>答えを見る</button></div><div class="choices" id="choices"></div><div class="answer hidden" id="inputArea"><input id="input" placeholder="例：ピカチュウ" autocomplete="off"><button class="mainBtn" id="submitBtn">答える</button></div><div class="result" id="result"></div></main>
     </div></section>
 
-    <section id="dex" class="view"><div class="grid dexGrid"><aside class="card"><h2 class="title">図鑑検索 <small>JSONデータ</small></h2><input id="search" type="search" placeholder="名前で検索"><label>地方</label><select id="dexRegion"><option value="all">ぜんぶ</option></select><label>タイプ</label><select id="dexType"><option value="all">ぜんぶ</option></select><p class="note">検索・地方・タイプで絞り込みできます。</p><div class="dexList" id="dexList"></div></aside><main class="card"><h2 class="title">図解プロフィール <small>生態・特徴・進化</small></h2><div class="panel" id="dexPanel"><div class="empty">データ読込中です。</div></div></main></div></section>
+    <section id="dex" class="view"><div class="grid dexGrid"><aside class="card"><h2 class="title">図鑑検索 <small>JSONデータ</small></h2><input id="search" type="search" placeholder="名前で検索"><label>地方</label><select id="dexRegion"><option value="all">ぜんぶ</option></select><label>タイプ</label><select id="dexType"><option value="all">ぜんぶ</option></select><p class="note">検索・地方・タイプで絞り込みできます。</p><div class="dexList" id="dexList"></div></aside><main class="card"><h2 class="title">図鑑プロフィール <small>生態・特徴・進化</small></h2><div class="panel" id="dexPanel"><div class="empty">データ読込中です。</div></div></main></div></section>
     <p class="foot">非公式の学習用サンプルです。図鑑説明は公式文の転載ではなく、JSONの構造化データから表示・要約しています。</p>
   </div>
 
