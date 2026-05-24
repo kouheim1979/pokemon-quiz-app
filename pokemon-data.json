@@ -2,9 +2,9 @@
   "meta": {
     "schemaVersion": 3,
     "mode": "full",
-    "count": 1023,
+    "count": 1024,
     "source": "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
-    "generatedAt": "2026-05-24T00:19:26.354Z",
+    "generatedAt": "2026-05-24T00:19:52.264Z",
     "note": "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
   },
   "pokemon": [
@@ -18675,6 +18675,55 @@
       "level": "normal"
     },
     {
+      "id": 376,
+      "slug": "metagross",
+      "name": {
+        "ja": "メタグロス",
+        "en": "Metagross",
+        "enKana": "メタグロス"
+      },
+      "aliases": [
+        "メタグロス",
+        "Metagross",
+        "メタグロス",
+        "metagross"
+      ],
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+      "region": "ホウエン",
+      "generation": "第3世代",
+      "types": [
+        "はがね",
+        "エスパー"
+      ],
+      "genus": "てつあしポケモン",
+      "heightM": 1.6,
+      "weightKg": 550,
+      "color": "青",
+      "shape": "複数頭",
+      "habitat": "不明",
+      "activity": "昼型",
+      "diet": "鉱物・硬いえさ",
+      "evolution": "#374 → #375 → #376",
+      "description": "メタグロスははがね・エスパータイプのてつあしポケモンです。英語名はMetagross（メタグロス）です。複数頭の体つきや青系の特徴を持ちます。",
+      "features": [
+        "複数頭の体つきが特徴",
+        "第3世代・ホウエンに分類されるポケモン"
+      ],
+      "hints": [
+        "はがね・エスパータイプ。",
+        "分類は「てつあしポケモン」。",
+        "英語名は Metagross（メタグロス）。"
+      ],
+      "stats": {
+        "power": 3,
+        "speed": 3,
+        "brain": 4,
+        "friend": 3,
+        "rare": 2
+      },
+      "level": "normal"
+    },
+    {
       "id": 377,
       "slug": "regirock",
       "name": {
@@ -36145,55 +36194,6 @@
       "level": "normal"
     },
     {
-      "id": 733,
-      "slug": "toucannon",
-      "name": {
-        "ja": "ドデカバシ",
-        "en": "Toucannon",
-        "enKana": "ドデカバシ"
-      },
-      "aliases": [
-        "ドデカバシ",
-        "Toucannon",
-        "ドデカバシ",
-        "toucannon"
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
-      "region": "アローラ",
-      "generation": "第7世代",
-      "types": [
-        "ノーマル",
-        "ひこう"
-      ],
-      "genus": "おおづつポケモン",
-      "heightM": 1.1,
-      "weightKg": 26,
-      "color": "黒",
-      "shape": "翼型",
-      "habitat": "不明",
-      "activity": "昼型",
-      "diet": "木の実・小さな食べ物",
-      "evolution": "#731 → #732 → #733",
-      "description": "ドデカバシはノーマル・ひこうタイプのおおづつポケモンです。英語名はToucannon（ドデカバシ）です。翼型の体つきや黒系の特徴を持ちます。",
-      "features": [
-        "翼型の体つきが特徴",
-        "第7世代・アローラに分類されるポケモン"
-      ],
-      "hints": [
-        "ノーマル・ひこうタイプ。",
-        "分類は「おおづつポケモン」。",
-        "英語名は Toucannon（ドデカバシ）。"
-      ],
-      "stats": {
-        "power": 3,
-        "speed": 4,
-        "brain": 3,
-        "friend": 4,
-        "rare": 2
-      },
-      "level": "normal"
-    },
-    {
       "id": 734,
       "slug": "yungoos",
       "name": {
@@ -40168,6 +40168,55 @@
         "ほのおタイプ。",
         "分類は「うさぎポケモン」。",
         "英語名は Raboot（ラビフット）。"
+      ],
+      "stats": {
+        "power": 4,
+        "speed": 3,
+        "brain": 3,
+        "friend": 3,
+        "rare": 3
+      },
+      "level": "normal"
+    },
+    {
+      "id": 815,
+      "slug": "cinderace",
+      "name": {
+        "ja": "エースバーン",
+        "en": "Cinderace",
+        "enKana": "シンダレース"
+      },
+      "aliases": [
+        "エースバーン",
+        "Cinderace",
+        "シンダレース",
+        "cinderace"
+      ],
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+      "region": "ガラル",
+      "generation": "第8世代",
+      "types": [
+        "ほのお"
+      ],
+      "genus": "ストライカーポケモン",
+      "heightM": 1.4,
+      "weightKg": 33,
+      "color": "白",
+      "shape": "二足",
+      "habitat": "不明",
+      "activity": "昼型",
+      "diet": "木の実・小さな食べ物",
+      "evolution": "#813 → #814 → #815",
+      "description": "エースバーンはほのおタイプのストライカーポケモンです。英語名はCinderace（シンダレース）です。二足の体つきや白系の特徴を持ちます。",
+      "features": [
+        "熱や炎に関係する特徴を持つ",
+        "二足の体つきが特徴",
+        "第8世代・ガラルに分類されるポケモン"
+      ],
+      "hints": [
+        "ほのおタイプ。",
+        "分類は「ストライカーポケモン」。",
+        "英語名は Cinderace（シンダレース）。"
       ],
       "stats": {
         "power": 4,
