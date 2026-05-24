@@ -4,7 +4,7 @@
     "mode": "full",
     "count": 1025,
     "source": "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
-    "generatedAt": "2026-05-24T00:26:50.325Z",
+    "generatedAt": "2026-05-24T00:27:51.889Z",
     "note": "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
   },
   "pokemon": [
@@ -17932,12 +17932,12 @@
       "name": {
         "ja": "ユキワラシ",
         "en": "Snorunt",
-        "enKana": "ユキワラシ"
+        "enKana": "スノーラント"
       },
       "aliases": [
         "ユキワラシ",
         "Snorunt",
-        "ユキワラシ",
+        "スノーラント",
         "snorunt"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
@@ -17955,7 +17955,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "ユキワラシはこおりタイプのゆきかさポケモンです。英語名はSnorunt（ユキワラシ）です。洞窟に適応し、人型の体つきや灰系の特徴を持ちます。",
+      "description": "ユキワラシはこおりタイプのゆきかさポケモンです。英語名はSnorunt（スノーラント）です。洞窟に適応し、人型の体つきや灰系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -17964,7 +17964,7 @@
       "hints": [
         "こおりタイプ。",
         "分類は「ゆきかさポケモン」。",
-        "英語名は Snorunt（ユキワラシ）。"
+        "英語名は Snorunt（スノーラント）。"
       ],
       "stats": {
         "power": 3,
@@ -17981,12 +17981,12 @@
       "name": {
         "ja": "オニゴーリ",
         "en": "Glalie",
-        "enKana": "オニゴーリ"
+        "enKana": "グレイリー"
       },
       "aliases": [
         "オニゴーリ",
         "Glalie",
-        "オニゴーリ",
+        "グレイリー",
         "glalie"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
@@ -18004,7 +18004,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "オニゴーリはこおりタイプのがんめんポケモンです。英語名はGlalie（オニゴーリ）です。洞窟に適応し、球状の体つきや灰系の特徴を持ちます。",
+      "description": "オニゴーリはこおりタイプのがんめんポケモンです。英語名はGlalie（グレイリー）です。洞窟に適応し、球状の体つきや灰系の特徴を持ちます。",
       "features": [
         "球状の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -18013,7 +18013,7 @@
       "hints": [
         "こおりタイプ。",
         "分類は「がんめんポケモン」。",
-        "英語名は Glalie（オニゴーリ）。"
+        "英語名は Glalie（グレイリー）。"
       ],
       "stats": {
         "power": 3,
@@ -23681,12 +23681,12 @@
       "name": {
         "ja": "ユキメノコ",
         "en": "Froslass",
-        "enKana": "ユキメノコ"
+        "enKana": "フロスラス"
       },
       "aliases": [
         "ユキメノコ",
         "Froslass",
-        "ユキメノコ",
+        "フロスラス",
         "froslass"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
@@ -23705,7 +23705,7 @@
       "activity": "夜型",
       "diet": "不明",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "ユキメノコはこおり・ゴーストタイプのゆきぐにポケモンです。英語名はFroslass（ユキメノコ）です。腕型の体つきや白系の特徴を持ちます。",
+      "description": "ユキメノコはこおり・ゴーストタイプのゆきぐにポケモンです。英語名はFroslass（フロスラス）です。腕型の体つきや白系の特徴を持ちます。",
       "features": [
         "気配を消したり不思議な行動をしやすい",
         "腕型の体つきが特徴",
@@ -23714,7 +23714,7 @@
       "hints": [
         "こおり・ゴーストタイプ。",
         "分類は「ゆきぐにポケモン」。",
-        "英語名は Froslass（ユキメノコ）。"
+        "英語名は Froslass（フロスラス）。"
       ],
       "stats": {
         "power": 3,
