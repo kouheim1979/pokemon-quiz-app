@@ -2,9 +2,9 @@
   "meta": {
     "schemaVersion": 3,
     "mode": "full",
-    "count": 1024,
+    "count": 1025,
     "source": "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
-    "generatedAt": "2026-05-24T00:19:52.264Z",
+    "generatedAt": "2026-05-24T00:26:50.325Z",
     "note": "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
   },
   "pokemon": [
@@ -6030,12 +6030,12 @@
       "name": {
         "ja": "バリヤード",
         "en": "Mr. Mime",
-        "enKana": "バリヤード"
+        "enKana": "ミスター・マイム"
       },
       "aliases": [
         "バリヤード",
         "Mr. Mime",
-        "バリヤード",
+        "ミスター・マイム",
         "mr-mime"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
@@ -6054,7 +6054,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "バリヤードはエスパー・フェアリータイプのバリアーポケモンです。英語名はMr. Mime（バリヤード）です。街に適応し、人型の体つきや桃系の特徴を持ちます。",
+      "description": "バリヤードはエスパー・フェアリータイプのバリアーポケモンです。英語名はMr. Mime（ミスター・マイム）です。街に適応し、人型の体つきや桃系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "街に適応した暮らしをする",
@@ -6063,7 +6063,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「バリアーポケモン」。",
-        "英語名は Mr. Mime（バリヤード）。"
+        "英語名は Mr. Mime（ミスター・マイム）。"
       ],
       "stats": {
         "power": 3,
@@ -21770,12 +21770,12 @@
       "name": {
         "ja": "マネネ",
         "en": "Mime Jr.",
-        "enKana": "マネネ"
+        "enKana": "マイム・ジュニア"
       },
       "aliases": [
         "マネネ",
         "Mime Jr.",
-        "マネネ",
+        "マイム・ジュニア",
         "mime-jr"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
@@ -21794,7 +21794,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "マネネはエスパー・フェアリータイプのマイムポケモンです。英語名はMime Jr.（マネネ）です。人型の体つきや桃系の特徴を持ちます。",
+      "description": "マネネはエスパー・フェアリータイプのマイムポケモンです。英語名はMime Jr.（マイム・ジュニア）です。人型の体つきや桃系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "第4世代・シンオウに分類されるポケモン"
@@ -21802,7 +21802,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「マイムポケモン」。",
-        "英語名は Mime Jr.（マネネ）。"
+        "英語名は Mime Jr.（マイム・ジュニア）。"
       ],
       "stats": {
         "power": 3,
@@ -36194,6 +36194,55 @@
       "level": "normal"
     },
     {
+      "id": 733,
+      "slug": "toucannon",
+      "name": {
+        "ja": "ドデカバシ",
+        "en": "Toucannon",
+        "enKana": "ドデカバシ"
+      },
+      "aliases": [
+        "ドデカバシ",
+        "Toucannon",
+        "ドデカバシ",
+        "toucannon"
+      ],
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
+      "region": "アローラ",
+      "generation": "第7世代",
+      "types": [
+        "ノーマル",
+        "ひこう"
+      ],
+      "genus": "おおづつポケモン",
+      "heightM": 1.1,
+      "weightKg": 26,
+      "color": "黒",
+      "shape": "翼型",
+      "habitat": "不明",
+      "activity": "昼型",
+      "diet": "木の実・小さな食べ物",
+      "evolution": "#731 → #732 → #733",
+      "description": "ドデカバシはノーマル・ひこうタイプのおおづつポケモンです。英語名はToucannon（ドデカバシ）です。翼型の体つきや黒系の特徴を持ちます。",
+      "features": [
+        "翼型の体つきが特徴",
+        "第7世代・アローラに分類されるポケモン"
+      ],
+      "hints": [
+        "ノーマル・ひこうタイプ。",
+        "分類は「おおづつポケモン」。",
+        "英語名は Toucannon（ドデカバシ）。"
+      ],
+      "stats": {
+        "power": 3,
+        "speed": 4,
+        "brain": 3,
+        "friend": 4,
+        "rare": 2
+      },
+      "level": "normal"
+    },
+    {
       "id": 734,
       "slug": "yungoos",
       "name": {
@@ -42679,12 +42728,12 @@
       "name": {
         "ja": "バリコオル",
         "en": "Mr. Rime",
-        "enKana": "バリコオル"
+        "enKana": "ミスター・ライム"
       },
       "aliases": [
         "バリコオル",
         "Mr. Rime",
-        "バリコオル",
+        "ミスター・ライム",
         "mr-rime"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
@@ -42703,7 +42752,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "バリコオルはこおり・エスパータイプのコメディアンポケモンです。英語名はMr. Rime（バリコオル）です。人型の体つきや紫系の特徴を持ちます。",
+      "description": "バリコオルはこおり・エスパータイプのコメディアンポケモンです。英語名はMr. Rime（ミスター・ライム）です。人型の体つきや紫系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "第8世代・ガラルに分類されるポケモン"
@@ -42711,7 +42760,7 @@
       "hints": [
         "こおり・エスパータイプ。",
         "分類は「コメディアンポケモン」。",
-        "英語名は Mr. Rime（バリコオル）。"
+        "英語名は Mr. Rime（ミスター・ライム）。"
       ],
       "stats": {
         "power": 3,
