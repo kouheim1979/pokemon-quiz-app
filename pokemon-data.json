@@ -2,9 +2,9 @@
   "meta": {
     "schemaVersion": 3,
     "mode": "full",
-    "count": 1025,
+    "count": 1024,
     "source": "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
-    "generatedAt": "2026-05-24T00:27:51.889Z",
+    "generatedAt": "2026-05-24T00:29:21.968Z",
     "note": "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
   },
   "pokemon": [
@@ -14,12 +14,12 @@
       "name": {
         "ja": "フシギダネ",
         "en": "Bulbasaur",
-        "enKana": "バルバソー"
+        "enKana": "フシギダネ"
       },
       "aliases": [
         "フシギダネ",
         "Bulbasaur",
-        "バルバソー",
+        "フシギダネ",
         "bulbasaur"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
@@ -38,7 +38,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#1 → #2 → #3",
-      "description": "フシギダネはくさ・どくタイプのたねポケモンです。英語名はBulbasaur（バルバソー）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
+      "description": "フシギダネはくさ・どくタイプのたねポケモンです。英語名はBulbasaur（フシギダネ）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "四足の体つきが特徴",
@@ -48,7 +48,7 @@
       "hints": [
         "くさ・どくタイプ。",
         "分類は「たねポケモン」。",
-        "英語名は Bulbasaur（バルバソー）。"
+        "英語名は Bulbasaur（フシギダネ）。"
       ],
       "stats": {
         "power": 3,
@@ -65,12 +65,12 @@
       "name": {
         "ja": "フシギソウ",
         "en": "Ivysaur",
-        "enKana": "アイヴィソー"
+        "enKana": "フシギソウ"
       },
       "aliases": [
         "フシギソウ",
         "Ivysaur",
-        "アイヴィソー",
+        "フシギソウ",
         "ivysaur"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
@@ -89,7 +89,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#1 → #2 → #3",
-      "description": "フシギソウはくさ・どくタイプのたねポケモンです。英語名はIvysaur（アイヴィソー）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
+      "description": "フシギソウはくさ・どくタイプのたねポケモンです。英語名はIvysaur（フシギソウ）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "四足の体つきが特徴",
@@ -99,7 +99,7 @@
       "hints": [
         "くさ・どくタイプ。",
         "分類は「たねポケモン」。",
-        "英語名は Ivysaur（アイヴィソー）。"
+        "英語名は Ivysaur（フシギソウ）。"
       ],
       "stats": {
         "power": 3,
@@ -116,12 +116,12 @@
       "name": {
         "ja": "フシギバナ",
         "en": "Venusaur",
-        "enKana": "ヴィーナソー"
+        "enKana": "フシギバナ"
       },
       "aliases": [
         "フシギバナ",
         "Venusaur",
-        "ヴィーナソー",
+        "フシギバナ",
         "venusaur"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
@@ -140,7 +140,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#1 → #2 → #3",
-      "description": "フシギバナはくさ・どくタイプのたねポケモンです。英語名はVenusaur（ヴィーナソー）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
+      "description": "フシギバナはくさ・どくタイプのたねポケモンです。英語名はVenusaur（フシギバナ）です。草地に適応し、四足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "四足の体つきが特徴",
@@ -150,7 +150,7 @@
       "hints": [
         "くさ・どくタイプ。",
         "分類は「たねポケモン」。",
-        "英語名は Venusaur（ヴィーナソー）。"
+        "英語名は Venusaur（フシギバナ）。"
       ],
       "stats": {
         "power": 3,
@@ -167,12 +167,12 @@
       "name": {
         "ja": "ヒトカゲ",
         "en": "Charmander",
-        "enKana": "チャーマンダー"
+        "enKana": "ヒトカゲ"
       },
       "aliases": [
         "ヒトカゲ",
         "Charmander",
-        "チャーマンダー",
+        "ヒトカゲ",
         "charmander"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
@@ -190,7 +190,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#4 → #5 → #6",
-      "description": "ヒトカゲはほのおタイプのとかげポケモンです。英語名はCharmander（チャーマンダー）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
+      "description": "ヒトカゲはほのおタイプのとかげポケモンです。英語名はCharmander（ヒトカゲ）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -200,7 +200,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「とかげポケモン」。",
-        "英語名は Charmander（チャーマンダー）。"
+        "英語名は Charmander（ヒトカゲ）。"
       ],
       "stats": {
         "power": 4,
@@ -217,12 +217,12 @@
       "name": {
         "ja": "リザード",
         "en": "Charmeleon",
-        "enKana": "チャーメレオン"
+        "enKana": "リザード"
       },
       "aliases": [
         "リザード",
         "Charmeleon",
-        "チャーメレオン",
+        "リザード",
         "charmeleon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
@@ -240,7 +240,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#4 → #5 → #6",
-      "description": "リザードはほのおタイプのかえんポケモンです。英語名はCharmeleon（チャーメレオン）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
+      "description": "リザードはほのおタイプのかえんポケモンです。英語名はCharmeleon（リザード）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -250,7 +250,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「かえんポケモン」。",
-        "英語名は Charmeleon（チャーメレオン）。"
+        "英語名は Charmeleon（リザード）。"
       ],
       "stats": {
         "power": 4,
@@ -267,12 +267,12 @@
       "name": {
         "ja": "リザードン",
         "en": "Charizard",
-        "enKana": "チャリザード"
+        "enKana": "リザードン"
       },
       "aliases": [
         "リザードン",
         "Charizard",
-        "チャリザード",
+        "リザードン",
         "charizard"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
@@ -291,7 +291,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#4 → #5 → #6",
-      "description": "リザードンはほのお・ひこうタイプのかえんポケモンです。英語名はCharizard（チャリザード）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
+      "description": "リザードンはほのお・ひこうタイプのかえんポケモンです。英語名はCharizard（リザードン）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -301,7 +301,7 @@
       "hints": [
         "ほのお・ひこうタイプ。",
         "分類は「かえんポケモン」。",
-        "英語名は Charizard（チャリザード）。"
+        "英語名は Charizard（リザードン）。"
       ],
       "stats": {
         "power": 4,
@@ -318,12 +318,12 @@
       "name": {
         "ja": "ゼニガメ",
         "en": "Squirtle",
-        "enKana": "スクワートル"
+        "enKana": "ゼニガメ"
       },
       "aliases": [
         "ゼニガメ",
         "Squirtle",
-        "スクワートル",
+        "ゼニガメ",
         "squirtle"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
@@ -341,7 +341,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#7 → #8 → #9",
-      "description": "ゼニガメはみずタイプのかめのこポケモンです。英語名はSquirtle（スクワートル）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "ゼニガメはみずタイプのかめのこポケモンです。英語名はSquirtle（ゼニガメ）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -350,7 +350,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「かめのこポケモン」。",
-        "英語名は Squirtle（スクワートル）。"
+        "英語名は Squirtle（ゼニガメ）。"
       ],
       "stats": {
         "power": 3,
@@ -367,12 +367,12 @@
       "name": {
         "ja": "カメール",
         "en": "Wartortle",
-        "enKana": "ウォートートル"
+        "enKana": "カメール"
       },
       "aliases": [
         "カメール",
         "Wartortle",
-        "ウォートートル",
+        "カメール",
         "wartortle"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
@@ -390,7 +390,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#7 → #8 → #9",
-      "description": "カメールはみずタイプのかめポケモンです。英語名はWartortle（ウォートートル）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "カメールはみずタイプのかめポケモンです。英語名はWartortle（カメール）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -399,7 +399,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「かめポケモン」。",
-        "英語名は Wartortle（ウォートートル）。"
+        "英語名は Wartortle（カメール）。"
       ],
       "stats": {
         "power": 3,
@@ -416,12 +416,12 @@
       "name": {
         "ja": "カメックス",
         "en": "Blastoise",
-        "enKana": "ブラストイズ"
+        "enKana": "カメックス"
       },
       "aliases": [
         "カメックス",
         "Blastoise",
-        "ブラストイズ",
+        "カメックス",
         "blastoise"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
@@ -439,7 +439,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#7 → #8 → #9",
-      "description": "カメックスはみずタイプのこうらポケモンです。英語名はBlastoise（ブラストイズ）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "カメックスはみずタイプのこうらポケモンです。英語名はBlastoise（カメックス）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -448,7 +448,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「こうらポケモン」。",
-        "英語名は Blastoise（ブラストイズ）。"
+        "英語名は Blastoise（カメックス）。"
       ],
       "stats": {
         "power": 3,
@@ -514,12 +514,12 @@
       "name": {
         "ja": "トランセル",
         "en": "Metapod",
-        "enKana": "メタポッド"
+        "enKana": "トランセル"
       },
       "aliases": [
         "トランセル",
         "Metapod",
-        "メタポッド",
+        "トランセル",
         "metapod"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
@@ -537,7 +537,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#10 → #11 → #12",
-      "description": "トランセルはむしタイプのさなぎポケモンです。英語名はMetapod（メタポッド）です。森に適応し、細長いの体つきや緑系の特徴を持ちます。",
+      "description": "トランセルはむしタイプのさなぎポケモンです。英語名はMetapod（トランセル）です。森に適応し、細長いの体つきや緑系の特徴を持ちます。",
       "features": [
         "細長いの体つきが特徴",
         "森に適応した暮らしをする",
@@ -546,7 +546,7 @@
       "hints": [
         "むしタイプ。",
         "分類は「さなぎポケモン」。",
-        "英語名は Metapod（メタポッド）。"
+        "英語名は Metapod（トランセル）。"
       ],
       "stats": {
         "power": 3,
@@ -613,12 +613,12 @@
       "name": {
         "ja": "ビードル",
         "en": "Weedle",
-        "enKana": "ウィードル"
+        "enKana": "ビードル"
       },
       "aliases": [
         "ビードル",
         "Weedle",
-        "ウィードル",
+        "ビードル",
         "weedle"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
@@ -637,7 +637,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#13 → #14 → #15",
-      "description": "ビードルはむし・どくタイプのけむしポケモンです。英語名はWeedle（ウィードル）です。森に適応し、装甲型の体つきや茶系の特徴を持ちます。",
+      "description": "ビードルはむし・どくタイプのけむしポケモンです。英語名はWeedle（ビードル）です。森に適応し、装甲型の体つきや茶系の特徴を持ちます。",
       "features": [
         "装甲型の体つきが特徴",
         "森に適応した暮らしをする",
@@ -646,7 +646,7 @@
       "hints": [
         "むし・どくタイプ。",
         "分類は「けむしポケモン」。",
-        "英語名は Weedle（ウィードル）。"
+        "英語名は Weedle（ビードル）。"
       ],
       "stats": {
         "power": 3,
@@ -663,12 +663,12 @@
       "name": {
         "ja": "コクーン",
         "en": "Kakuna",
-        "enKana": "カクーナ"
+        "enKana": "コクーン"
       },
       "aliases": [
         "コクーン",
         "Kakuna",
-        "カクーナ",
+        "コクーン",
         "kakuna"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
@@ -687,7 +687,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#13 → #14 → #15",
-      "description": "コクーンはむし・どくタイプのさなぎポケモンです。英語名はKakuna（カクーナ）です。森に適応し、細長いの体つきや黄系の特徴を持ちます。",
+      "description": "コクーンはむし・どくタイプのさなぎポケモンです。英語名はKakuna（コクーン）です。森に適応し、細長いの体つきや黄系の特徴を持ちます。",
       "features": [
         "細長いの体つきが特徴",
         "森に適応した暮らしをする",
@@ -696,7 +696,7 @@
       "hints": [
         "むし・どくタイプ。",
         "分類は「さなぎポケモン」。",
-        "英語名は Kakuna（カクーナ）。"
+        "英語名は Kakuna（コクーン）。"
       ],
       "stats": {
         "power": 3,
@@ -713,12 +713,12 @@
       "name": {
         "ja": "スピアー",
         "en": "Beedrill",
-        "enKana": "ビードリル"
+        "enKana": "スピアー"
       },
       "aliases": [
         "スピアー",
         "Beedrill",
-        "ビードリル",
+        "スピアー",
         "beedrill"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
@@ -737,7 +737,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#13 → #14 → #15",
-      "description": "スピアーはむし・どくタイプのどくばちポケモンです。英語名はBeedrill（ビードリル）です。森に適応し、bug-wingsの体つきや黄系の特徴を持ちます。",
+      "description": "スピアーはむし・どくタイプのどくばちポケモンです。英語名はBeedrill（スピアー）です。森に適応し、bug-wingsの体つきや黄系の特徴を持ちます。",
       "features": [
         "bug-wingsの体つきが特徴",
         "森に適応した暮らしをする",
@@ -746,7 +746,7 @@
       "hints": [
         "むし・どくタイプ。",
         "分類は「どくばちポケモン」。",
-        "英語名は Beedrill（ビードリル）。"
+        "英語名は Beedrill（スピアー）。"
       ],
       "stats": {
         "power": 3,
@@ -763,12 +763,12 @@
       "name": {
         "ja": "ポッポ",
         "en": "Pidgey",
-        "enKana": "ピジョンィ"
+        "enKana": "ポッポ"
       },
       "aliases": [
         "ポッポ",
         "Pidgey",
-        "ピジョンィ",
+        "ポッポ",
         "pidgey"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
@@ -787,7 +787,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#16 → #17 → #18",
-      "description": "ポッポはノーマル・ひこうタイプのことりポケモンです。英語名はPidgey（ピジョンィ）です。森に適応し、翼型の体つきや茶系の特徴を持ちます。",
+      "description": "ポッポはノーマル・ひこうタイプのことりポケモンです。英語名はPidgey（ポッポ）です。森に適応し、翼型の体つきや茶系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "森に適応した暮らしをする",
@@ -796,7 +796,7 @@
       "hints": [
         "ノーマル・ひこうタイプ。",
         "分類は「ことりポケモン」。",
-        "英語名は Pidgey（ピジョンィ）。"
+        "英語名は Pidgey（ポッポ）。"
       ],
       "stats": {
         "power": 3,
@@ -813,12 +813,12 @@
       "name": {
         "ja": "ピジョン",
         "en": "Pidgeotto",
-        "enKana": "ピジョット"
+        "enKana": "ピジョン"
       },
       "aliases": [
         "ピジョン",
         "Pidgeotto",
-        "ピジョット",
+        "ピジョン",
         "pidgeotto"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
@@ -837,7 +837,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#16 → #17 → #18",
-      "description": "ピジョンはノーマル・ひこうタイプのとりポケモンです。英語名はPidgeotto（ピジョット）です。森に適応し、翼型の体つきや茶系の特徴を持ちます。",
+      "description": "ピジョンはノーマル・ひこうタイプのとりポケモンです。英語名はPidgeotto（ピジョン）です。森に適応し、翼型の体つきや茶系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "森に適応した暮らしをする",
@@ -846,7 +846,7 @@
       "hints": [
         "ノーマル・ひこうタイプ。",
         "分類は「とりポケモン」。",
-        "英語名は Pidgeotto（ピジョット）。"
+        "英語名は Pidgeotto（ピジョン）。"
       ],
       "stats": {
         "power": 3,
@@ -1699,12 +1699,12 @@
       "name": {
         "ja": "ピッピ",
         "en": "Clefairy",
-        "enKana": "クレフェアリー"
+        "enKana": "ピッピ"
       },
       "aliases": [
         "ピッピ",
         "Clefairy",
-        "クレフェアリー",
+        "ピッピ",
         "clefairy"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
@@ -1722,7 +1722,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#173 → #35 → #36",
-      "description": "ピッピはフェアリータイプのようせいポケモンです。英語名はClefairy（クレフェアリー）です。山地に適応し、二足の体つきや桃系の特徴を持ちます。",
+      "description": "ピッピはフェアリータイプのようせいポケモンです。英語名はClefairy（ピッピ）です。山地に適応し、二足の体つきや桃系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -1731,7 +1731,7 @@
       "hints": [
         "フェアリータイプ。",
         "分類は「ようせいポケモン」。",
-        "英語名は Clefairy（クレフェアリー）。"
+        "英語名は Clefairy（ピッピ）。"
       ],
       "stats": {
         "power": 3,
@@ -1797,12 +1797,12 @@
       "name": {
         "ja": "ロコン",
         "en": "Vulpix",
-        "enKana": "ヴァルピックス"
+        "enKana": "ロコン"
       },
       "aliases": [
         "ロコン",
         "Vulpix",
-        "ヴァルピックス",
+        "ロコン",
         "vulpix"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
@@ -1820,7 +1820,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#37 → #38",
-      "description": "ロコンはほのおタイプのきつねポケモンです。英語名はVulpix（ヴァルピックス）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
+      "description": "ロコンはほのおタイプのきつねポケモンです。英語名はVulpix（ロコン）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -1830,7 +1830,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「きつねポケモン」。",
-        "英語名は Vulpix（ヴァルピックス）。"
+        "英語名は Vulpix（ロコン）。"
       ],
       "stats": {
         "power": 4,
@@ -1897,12 +1897,12 @@
       "name": {
         "ja": "プリン",
         "en": "Jigglypuff",
-        "enKana": "ジグリーパフ"
+        "enKana": "プリン"
       },
       "aliases": [
         "プリン",
         "Jigglypuff",
-        "ジグリーパフ",
+        "プリン",
         "jigglypuff"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
@@ -1921,7 +1921,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#174 → #39 → #40",
-      "description": "プリンはノーマル・フェアリータイプのふうせんポケモンです。英語名はJigglypuff（ジグリーパフ）です。草地に適応し、人型の体つきや桃系の特徴を持ちます。",
+      "description": "プリンはノーマル・フェアリータイプのふうせんポケモンです。英語名はJigglypuff（プリン）です。草地に適応し、人型の体つきや桃系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "草地に適応した暮らしをする",
@@ -1930,7 +1930,7 @@
       "hints": [
         "ノーマル・フェアリータイプ。",
         "分類は「ふうせんポケモン」。",
-        "英語名は Jigglypuff（ジグリーパフ）。"
+        "英語名は Jigglypuff（プリン）。"
       ],
       "stats": {
         "power": 3,
@@ -2550,12 +2550,12 @@
       "name": {
         "ja": "ニャース",
         "en": "Meowth",
-        "enKana": "ミャウス"
+        "enKana": "ニャース"
       },
       "aliases": [
         "ニャース",
         "Meowth",
-        "ミャウス",
+        "ニャース",
         "meowth"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
@@ -2573,7 +2573,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#52 → #53 / #52 → #863",
-      "description": "ニャースはノーマルタイプのばけねこポケモンです。英語名はMeowth（ミャウス）です。街に適応し、四足の体つきや黄系の特徴を持ちます。",
+      "description": "ニャースはノーマルタイプのばけねこポケモンです。英語名はMeowth（ニャース）です。街に適応し、四足の体つきや黄系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "街に適応した暮らしをする",
@@ -2582,7 +2582,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「ばけねこポケモン」。",
-        "英語名は Meowth（ミャウス）。"
+        "英語名は Meowth（ニャース）。"
       ],
       "stats": {
         "power": 3,
@@ -2648,12 +2648,12 @@
       "name": {
         "ja": "コダック",
         "en": "Psyduck",
-        "enKana": "サイダック"
+        "enKana": "コダック"
       },
       "aliases": [
         "コダック",
         "Psyduck",
-        "サイダック",
+        "コダック",
         "psyduck"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
@@ -2671,7 +2671,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#54 → #55",
-      "description": "コダックはみずタイプのあひるポケモンです。英語名はPsyduck（サイダック）です。二足の体つきや黄系の特徴を持ちます。",
+      "description": "コダックはみずタイプのあひるポケモンです。英語名はPsyduck（コダック）です。二足の体つきや黄系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -2680,7 +2680,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「あひるポケモン」。",
-        "英語名は Psyduck（サイダック）。"
+        "英語名は Psyduck（コダック）。"
       ],
       "stats": {
         "power": 3,
@@ -2844,12 +2844,12 @@
       "name": {
         "ja": "ガーディ",
         "en": "Growlithe",
-        "enKana": "グロウリス"
+        "enKana": "ガーディ"
       },
       "aliases": [
         "ガーディ",
         "Growlithe",
-        "グロウリス",
+        "ガーディ",
         "growlithe"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
@@ -2867,7 +2867,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#58 → #59",
-      "description": "ガーディはほのおタイプのこいぬポケモンです。英語名はGrowlithe（グロウリス）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
+      "description": "ガーディはほのおタイプのこいぬポケモンです。英語名はGrowlithe（ガーディ）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -2877,7 +2877,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「こいぬポケモン」。",
-        "英語名は Growlithe（グロウリス）。"
+        "英語名は Growlithe（ガーディ）。"
       ],
       "stats": {
         "power": 4,
@@ -3239,12 +3239,12 @@
       "name": {
         "ja": "ワンリキー",
         "en": "Machop",
-        "enKana": "マチョップ"
+        "enKana": "ワンリキー"
       },
       "aliases": [
         "ワンリキー",
         "Machop",
-        "マチョップ",
+        "ワンリキー",
         "machop"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
@@ -3262,7 +3262,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#66 → #67 → #68",
-      "description": "ワンリキーはかくとうタイプのかいりきポケモンです。英語名はMachop（マチョップ）です。山地に適応し、二足の体つきや灰系の特徴を持ちます。",
+      "description": "ワンリキーはかくとうタイプのかいりきポケモンです。英語名はMachop（ワンリキー）です。山地に適応し、二足の体つきや灰系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -3271,7 +3271,7 @@
       "hints": [
         "かくとうタイプ。",
         "分類は「かいりきポケモン」。",
-        "英語名は Machop（マチョップ）。"
+        "英語名は Machop（ワンリキー）。"
       ],
       "stats": {
         "power": 4,
@@ -3891,12 +3891,12 @@
       "name": {
         "ja": "ヤドン",
         "en": "Slowpoke",
-        "enKana": "スローポーク"
+        "enKana": "ヤドン"
       },
       "aliases": [
         "ヤドン",
         "Slowpoke",
-        "スローポーク",
+        "ヤドン",
         "slowpoke"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
@@ -3915,7 +3915,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#79 → #80 / #79 → #199",
-      "description": "ヤドンはみず・エスパータイプのまぬけポケモンです。英語名はSlowpoke（スローポーク）です。四足の体つきや桃系の特徴を持ちます。",
+      "description": "ヤドンはみず・エスパータイプのまぬけポケモンです。英語名はSlowpoke（ヤドン）です。四足の体つきや桃系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "四足の体つきが特徴",
@@ -3924,7 +3924,7 @@
       "hints": [
         "みず・エスパータイプ。",
         "分類は「まぬけポケモン」。",
-        "英語名は Slowpoke（スローポーク）。"
+        "英語名は Slowpoke（ヤドン）。"
       ],
       "stats": {
         "power": 3,
@@ -4091,12 +4091,12 @@
       "name": {
         "ja": "カモネギ",
         "en": "Farfetch’d",
-        "enKana": "ファーフェッチド"
+        "enKana": "カモネギ"
       },
       "aliases": [
         "カモネギ",
         "Farfetch’d",
-        "ファーフェッチド",
+        "カモネギ",
         "farfetchd"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
@@ -4115,7 +4115,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#83 → #865",
-      "description": "カモネギはノーマル・ひこうタイプのかるがもポケモンです。英語名はFarfetch’d（ファーフェッチド）です。草地に適応し、翼型の体つきや茶系の特徴を持ちます。",
+      "description": "カモネギはノーマル・ひこうタイプのかるがもポケモンです。英語名はFarfetch’d（カモネギ）です。草地に適応し、翼型の体つきや茶系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "草地に適応した暮らしをする",
@@ -4124,7 +4124,7 @@
       "hints": [
         "ノーマル・ひこうタイプ。",
         "分類は「かるがもポケモン」。",
-        "英語名は Farfetch’d（ファーフェッチド）。"
+        "英語名は Farfetch’d（カモネギ）。"
       ],
       "stats": {
         "power": 3,
@@ -4141,12 +4141,12 @@
       "name": {
         "ja": "ドードー",
         "en": "Doduo",
-        "enKana": "ドードゥオ"
+        "enKana": "ドードー"
       },
       "aliases": [
         "ドードー",
         "Doduo",
-        "ドードゥオ",
+        "ドードー",
         "doduo"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
@@ -4165,7 +4165,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#84 → #85",
-      "description": "ドードーはノーマル・ひこうタイプのふたごどりポケモンです。英語名はDoduo（ドードゥオ）です。草地に適応し、多足の体つきや茶系の特徴を持ちます。",
+      "description": "ドードーはノーマル・ひこうタイプのふたごどりポケモンです。英語名はDoduo（ドードー）です。草地に適応し、多足の体つきや茶系の特徴を持ちます。",
       "features": [
         "多足の体つきが特徴",
         "草地に適応した暮らしをする",
@@ -4174,7 +4174,7 @@
       "hints": [
         "ノーマル・ひこうタイプ。",
         "分類は「ふたごどりポケモン」。",
-        "英語名は Doduo（ドードゥオ）。"
+        "英語名は Doduo（ドードー）。"
       ],
       "stats": {
         "power": 3,
@@ -4541,12 +4541,12 @@
       "name": {
         "ja": "ゴース",
         "en": "Gastly",
-        "enKana": "ガストリー"
+        "enKana": "ゴース"
       },
       "aliases": [
         "ゴース",
         "Gastly",
-        "ガストリー",
+        "ゴース",
         "gastly"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
@@ -4565,7 +4565,7 @@
       "activity": "夜型",
       "diet": "不明",
       "evolution": "#92 → #93 → #94",
-      "description": "ゴースはゴースト・どくタイプのガスじょうポケモンです。英語名はGastly（ガストリー）です。洞窟に適応し、球状の体つきや紫系の特徴を持ちます。",
+      "description": "ゴースはゴースト・どくタイプのガスじょうポケモンです。英語名はGastly（ゴース）です。洞窟に適応し、球状の体つきや紫系の特徴を持ちます。",
       "features": [
         "気配を消したり不思議な行動をしやすい",
         "球状の体つきが特徴",
@@ -4575,7 +4575,7 @@
       "hints": [
         "ゴースト・どくタイプ。",
         "分類は「ガスじょうポケモン」。",
-        "英語名は Gastly（ガストリー）。"
+        "英語名は Gastly（ゴース）。"
       ],
       "stats": {
         "power": 3,
@@ -4694,12 +4694,12 @@
       "name": {
         "ja": "イワーク",
         "en": "Onix",
-        "enKana": "オニックス"
+        "enKana": "イワーク"
       },
       "aliases": [
         "イワーク",
         "Onix",
-        "オニックス",
+        "イワーク",
         "onix"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
@@ -4718,7 +4718,7 @@
       "activity": "夜型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#95 → #208",
-      "description": "イワークはいわ・じめんタイプのいわへびポケモンです。英語名はOnix（オニックス）です。洞窟に適応し、細長いの体つきや灰系の特徴を持ちます。",
+      "description": "イワークはいわ・じめんタイプのいわへびポケモンです。英語名はOnix（イワーク）です。洞窟に適応し、細長いの体つきや灰系の特徴を持ちます。",
       "features": [
         "細長いの体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -4727,7 +4727,7 @@
       "hints": [
         "いわ・じめんタイプ。",
         "分類は「いわへびポケモン」。",
-        "英語名は Onix（オニックス）。"
+        "英語名は Onix（イワーク）。"
       ],
       "stats": {
         "power": 3,
@@ -5142,12 +5142,12 @@
       "name": {
         "ja": "カラカラ",
         "en": "Cubone",
-        "enKana": "キューボーン"
+        "enKana": "カラカラ"
       },
       "aliases": [
         "カラカラ",
         "Cubone",
-        "キューボーン",
+        "カラカラ",
         "cubone"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
@@ -5165,7 +5165,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#104 → #105",
-      "description": "カラカラはじめんタイプのこどくポケモンです。英語名はCubone（キューボーン）です。山地に適応し、二足の体つきや茶系の特徴を持ちます。",
+      "description": "カラカラはじめんタイプのこどくポケモンです。英語名はCubone（カラカラ）です。山地に適応し、二足の体つきや茶系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -5174,7 +5174,7 @@
       "hints": [
         "じめんタイプ。",
         "分類は「こどくポケモン」。",
-        "英語名は Cubone（キューボーン）。"
+        "英語名は Cubone（カラカラ）。"
       ],
       "stats": {
         "power": 3,
@@ -5583,12 +5583,12 @@
       "name": {
         "ja": "ラッキー",
         "en": "Chansey",
-        "enKana": "チャンシー"
+        "enKana": "ラッキー"
       },
       "aliases": [
         "ラッキー",
         "Chansey",
-        "チャンシー",
+        "ラッキー",
         "chansey"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
@@ -5606,7 +5606,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#440 → #113 → #242",
-      "description": "ラッキーはノーマルタイプのたまごポケモンです。英語名はChansey（チャンシー）です。街に適応し、二足の体つきや桃系の特徴を持ちます。",
+      "description": "ラッキーはノーマルタイプのたまごポケモンです。英語名はChansey（ラッキー）です。街に適応し、二足の体つきや桃系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "街に適応した暮らしをする",
@@ -5615,7 +5615,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「たまごポケモン」。",
-        "英語名は Chansey（チャンシー）。"
+        "英語名は Chansey（ラッキー）。"
       ],
       "stats": {
         "power": 3,
@@ -5682,12 +5682,12 @@
       "name": {
         "ja": "ガルーラ",
         "en": "Kangaskhan",
-        "enKana": "カンガスカン"
+        "enKana": "ガルーラ"
       },
       "aliases": [
         "ガルーラ",
         "Kangaskhan",
-        "カンガスカン",
+        "ガルーラ",
         "kangaskhan"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
@@ -5705,7 +5705,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#115",
-      "description": "ガルーラはノーマルタイプのおやこポケモンです。英語名はKangaskhan（カンガスカン）です。草地に適応し、二足の体つきや茶系の特徴を持ちます。",
+      "description": "ガルーラはノーマルタイプのおやこポケモンです。英語名はKangaskhan（ガルーラ）です。草地に適応し、二足の体つきや茶系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "草地に適応した暮らしをする",
@@ -5714,7 +5714,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「おやこポケモン」。",
-        "英語名は Kangaskhan（カンガスカン）。"
+        "英語名は Kangaskhan（ガルーラ）。"
       ],
       "stats": {
         "power": 3,
@@ -6030,12 +6030,12 @@
       "name": {
         "ja": "バリヤード",
         "en": "Mr. Mime",
-        "enKana": "ミスター・マイム"
+        "enKana": "バリヤード"
       },
       "aliases": [
         "バリヤード",
         "Mr. Mime",
-        "ミスター・マイム",
+        "バリヤード",
         "mr-mime"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
@@ -6054,7 +6054,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "バリヤードはエスパー・フェアリータイプのバリアーポケモンです。英語名はMr. Mime（ミスター・マイム）です。街に適応し、人型の体つきや桃系の特徴を持ちます。",
+      "description": "バリヤードはエスパー・フェアリータイプのバリアーポケモンです。英語名はMr. Mime（バリヤード）です。街に適応し、人型の体つきや桃系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "街に適応した暮らしをする",
@@ -6063,7 +6063,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「バリアーポケモン」。",
-        "英語名は Mr. Mime（ミスター・マイム）。"
+        "英語名は Mr. Mime（バリヤード）。"
       ],
       "stats": {
         "power": 3,
@@ -6080,12 +6080,12 @@
       "name": {
         "ja": "ストライク",
         "en": "Scyther",
-        "enKana": "サイザー"
+        "enKana": "ストライク"
       },
       "aliases": [
         "ストライク",
         "Scyther",
-        "サイザー",
+        "ストライク",
         "scyther"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
@@ -6104,7 +6104,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#123 → #212 / #123 → #900",
-      "description": "ストライクはむし・ひこうタイプのかまきりポケモンです。英語名はScyther（サイザー）です。草地に適応し、bug-wingsの体つきや緑系の特徴を持ちます。",
+      "description": "ストライクはむし・ひこうタイプのかまきりポケモンです。英語名はScyther（ストライク）です。草地に適応し、bug-wingsの体つきや緑系の特徴を持ちます。",
       "features": [
         "bug-wingsの体つきが特徴",
         "草地に適応した暮らしをする",
@@ -6113,7 +6113,7 @@
       "hints": [
         "むし・ひこうタイプ。",
         "分類は「かまきりポケモン」。",
-        "英語名は Scyther（サイザー）。"
+        "英語名は Scyther（ストライク）。"
       ],
       "stats": {
         "power": 3,
@@ -6180,12 +6180,12 @@
       "name": {
         "ja": "エレブー",
         "en": "Electabuzz",
-        "enKana": "エレクタバズ"
+        "enKana": "エレブー"
       },
       "aliases": [
         "エレブー",
         "Electabuzz",
-        "エレクタバズ",
+        "エレブー",
         "electabuzz"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
@@ -6203,7 +6203,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#239 → #125 → #466",
-      "description": "エレブーはでんきタイプのでんげきポケモンです。英語名はElectabuzz（エレクタバズ）です。草地に適応し、二足の体つきや黄系の特徴を持ちます。",
+      "description": "エレブーはでんきタイプのでんげきポケモンです。英語名はElectabuzz（エレブー）です。草地に適応し、二足の体つきや黄系の特徴を持ちます。",
       "features": [
         "電気を使った動きや攻撃が得意",
         "二足の体つきが特徴",
@@ -6213,7 +6213,7 @@
       "hints": [
         "でんきタイプ。",
         "分類は「でんげきポケモン」。",
-        "英語名は Electabuzz（エレクタバズ）。"
+        "英語名は Electabuzz（エレブー）。"
       ],
       "stats": {
         "power": 3,
@@ -6230,12 +6230,12 @@
       "name": {
         "ja": "ブーバー",
         "en": "Magmar",
-        "enKana": "マグマー"
+        "enKana": "ブーバー"
       },
       "aliases": [
         "ブーバー",
         "Magmar",
-        "マグマー",
+        "ブーバー",
         "magmar"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
@@ -6253,7 +6253,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#240 → #126 → #467",
-      "description": "ブーバーはほのおタイプのひふきポケモンです。英語名はMagmar（マグマー）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
+      "description": "ブーバーはほのおタイプのひふきポケモンです。英語名はMagmar（ブーバー）です。山地に適応し、二足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -6263,7 +6263,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ひふきポケモン」。",
-        "英語名は Magmar（マグマー）。"
+        "英語名は Magmar（ブーバー）。"
       ],
       "stats": {
         "power": 4,
@@ -6280,12 +6280,12 @@
       "name": {
         "ja": "カイロス",
         "en": "Pinsir",
-        "enKana": "ピンサー"
+        "enKana": "カイロス"
       },
       "aliases": [
         "カイロス",
         "Pinsir",
-        "ピンサー",
+        "カイロス",
         "pinsir"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
@@ -6303,7 +6303,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#127",
-      "description": "カイロスはむしタイプのくわがたポケモンです。英語名はPinsir（ピンサー）です。森に適応し、人型の体つきや茶系の特徴を持ちます。",
+      "description": "カイロスはむしタイプのくわがたポケモンです。英語名はPinsir（カイロス）です。森に適応し、人型の体つきや茶系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "森に適応した暮らしをする",
@@ -6312,7 +6312,7 @@
       "hints": [
         "むしタイプ。",
         "分類は「くわがたポケモン」。",
-        "英語名は Pinsir（ピンサー）。"
+        "英語名は Pinsir（カイロス）。"
       ],
       "stats": {
         "power": 3,
@@ -6329,12 +6329,12 @@
       "name": {
         "ja": "ケンタロス",
         "en": "Tauros",
-        "enKana": "トーロス"
+        "enKana": "ケンタロス"
       },
       "aliases": [
         "ケンタロス",
         "Tauros",
-        "トーロス",
+        "ケンタロス",
         "tauros"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
@@ -6352,7 +6352,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#128",
-      "description": "ケンタロスはノーマルタイプのあばれうしポケモンです。英語名はTauros（トーロス）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
+      "description": "ケンタロスはノーマルタイプのあばれうしポケモンです。英語名はTauros（ケンタロス）です。草地に適応し、四足の体つきや茶系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "草地に適応した暮らしをする",
@@ -6361,7 +6361,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「あばれうしポケモン」。",
-        "英語名は Tauros（トーロス）。"
+        "英語名は Tauros（ケンタロス）。"
       ],
       "stats": {
         "power": 3,
@@ -6378,12 +6378,12 @@
       "name": {
         "ja": "コイキング",
         "en": "Magikarp",
-        "enKana": "マジカープ"
+        "enKana": "コイキング"
       },
       "aliases": [
         "コイキング",
         "Magikarp",
-        "マジカープ",
+        "コイキング",
         "magikarp"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
@@ -6401,7 +6401,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#129 → #130",
-      "description": "コイキングはみずタイプのさかなポケモンです。英語名はMagikarp（マジカープ）です。魚型の体つきや赤系の特徴を持ちます。",
+      "description": "コイキングはみずタイプのさかなポケモンです。英語名はMagikarp（コイキング）です。魚型の体つきや赤系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "魚型の体つきが特徴",
@@ -6410,7 +6410,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「さかなポケモン」。",
-        "英語名は Magikarp（マジカープ）。"
+        "英語名は Magikarp（コイキング）。"
       ],
       "stats": {
         "power": 3,
@@ -6528,12 +6528,12 @@
       "name": {
         "ja": "メタモン",
         "en": "Ditto",
-        "enKana": "ディトー"
+        "enKana": "メタモン"
       },
       "aliases": [
         "メタモン",
         "Ditto",
-        "ディトー",
+        "メタモン",
         "ditto"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
@@ -6551,7 +6551,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#132",
-      "description": "メタモンはノーマルタイプのへんしんポケモンです。英語名はDitto（ディトー）です。街に適応し、球状の体つきや紫系の特徴を持ちます。",
+      "description": "メタモンはノーマルタイプのへんしんポケモンです。英語名はDitto（メタモン）です。街に適応し、球状の体つきや紫系の特徴を持ちます。",
       "features": [
         "球状の体つきが特徴",
         "街に適応した暮らしをする",
@@ -6560,7 +6560,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「へんしんポケモン」。",
-        "英語名は Ditto（ディトー）。"
+        "英語名は Ditto（メタモン）。"
       ],
       "stats": {
         "power": 3,
@@ -6626,12 +6626,12 @@
       "name": {
         "ja": "シャワーズ",
         "en": "Vaporeon",
-        "enKana": "ヴェイポリオン"
+        "enKana": "シャワーズ"
       },
       "aliases": [
         "シャワーズ",
         "Vaporeon",
-        "ヴェイポリオン",
+        "シャワーズ",
         "vaporeon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
@@ -6649,7 +6649,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "シャワーズはみずタイプのあわはきポケモンです。英語名はVaporeon（ヴェイポリオン）です。街に適応し、四足の体つきや青系の特徴を持ちます。",
+      "description": "シャワーズはみずタイプのあわはきポケモンです。英語名はVaporeon（シャワーズ）です。街に適応し、四足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "四足の体つきが特徴",
@@ -6659,7 +6659,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「あわはきポケモン」。",
-        "英語名は Vaporeon（ヴェイポリオン）。"
+        "英語名は Vaporeon（シャワーズ）。"
       ],
       "stats": {
         "power": 3,
@@ -6676,12 +6676,12 @@
       "name": {
         "ja": "サンダース",
         "en": "Jolteon",
-        "enKana": "ジョルティオン"
+        "enKana": "サンダース"
       },
       "aliases": [
         "サンダース",
         "Jolteon",
-        "ジョルティオン",
+        "サンダース",
         "jolteon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
@@ -6699,7 +6699,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "サンダースはでんきタイプのかみなりポケモンです。英語名はJolteon（ジョルティオン）です。街に適応し、四足の体つきや黄系の特徴を持ちます。",
+      "description": "サンダースはでんきタイプのかみなりポケモンです。英語名はJolteon（サンダース）です。街に適応し、四足の体つきや黄系の特徴を持ちます。",
       "features": [
         "電気を使った動きや攻撃が得意",
         "四足の体つきが特徴",
@@ -6709,7 +6709,7 @@
       "hints": [
         "でんきタイプ。",
         "分類は「かみなりポケモン」。",
-        "英語名は Jolteon（ジョルティオン）。"
+        "英語名は Jolteon（サンダース）。"
       ],
       "stats": {
         "power": 3,
@@ -6726,12 +6726,12 @@
       "name": {
         "ja": "ブースター",
         "en": "Flareon",
-        "enKana": "フレアリオン"
+        "enKana": "ブースター"
       },
       "aliases": [
         "ブースター",
         "Flareon",
-        "フレアリオン",
+        "ブースター",
         "flareon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
@@ -6749,7 +6749,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "ブースターはほのおタイプのほのおポケモンです。英語名はFlareon（フレアリオン）です。街に適応し、四足の体つきや赤系の特徴を持ちます。",
+      "description": "ブースターはほのおタイプのほのおポケモンです。英語名はFlareon（ブースター）です。街に適応し、四足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -6759,7 +6759,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ほのおポケモン」。",
-        "英語名は Flareon（フレアリオン）。"
+        "英語名は Flareon（ブースター）。"
       ],
       "stats": {
         "power": 4,
@@ -7079,12 +7079,12 @@
       "name": {
         "ja": "カビゴン",
         "en": "Snorlax",
-        "enKana": "スノーラックス"
+        "enKana": "カビゴン"
       },
       "aliases": [
         "カビゴン",
         "Snorlax",
-        "スノーラックス",
+        "カビゴン",
         "snorlax"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
@@ -7102,7 +7102,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#446 → #143",
-      "description": "カビゴンはノーマルタイプのいねむりポケモンです。英語名はSnorlax（スノーラックス）です。山地に適応し、人型の体つきや黒系の特徴を持ちます。",
+      "description": "カビゴンはノーマルタイプのいねむりポケモンです。英語名はSnorlax（カビゴン）です。山地に適応し、人型の体つきや黒系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -7111,7 +7111,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「いねむりポケモン」。",
-        "英語名は Snorlax（スノーラックス）。"
+        "英語名は Snorlax（カビゴン）。"
       ],
       "stats": {
         "power": 3,
@@ -7128,12 +7128,12 @@
       "name": {
         "ja": "フリーザー",
         "en": "Articuno",
-        "enKana": "アーティクーノ"
+        "enKana": "フリーザー"
       },
       "aliases": [
         "フリーザー",
         "Articuno",
-        "アーティクーノ",
+        "フリーザー",
         "articuno"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
@@ -7152,7 +7152,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#144",
-      "description": "フリーザーはこおり・ひこうタイプのれいとうポケモンです。英語名はArticuno（アーティクーノ）です。希少地域に適応し、翼型の体つきや青系の特徴を持ちます。",
+      "description": "フリーザーはこおり・ひこうタイプのれいとうポケモンです。英語名はArticuno（フリーザー）です。希少地域に適応し、翼型の体つきや青系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "希少地域に適応した暮らしをする",
@@ -7161,7 +7161,7 @@
       "hints": [
         "こおり・ひこうタイプ。",
         "分類は「れいとうポケモン」。",
-        "英語名は Articuno（アーティクーノ）。"
+        "英語名は Articuno（フリーザー）。"
       ],
       "stats": {
         "power": 5,
@@ -7178,12 +7178,12 @@
       "name": {
         "ja": "サンダー",
         "en": "Zapdos",
-        "enKana": "ザップドス"
+        "enKana": "サンダー"
       },
       "aliases": [
         "サンダー",
         "Zapdos",
-        "ザップドス",
+        "サンダー",
         "zapdos"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
@@ -7202,7 +7202,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#145",
-      "description": "サンダーはでんき・ひこうタイプのでんげきポケモンです。英語名はZapdos（ザップドス）です。希少地域に適応し、翼型の体つきや黄系の特徴を持ちます。",
+      "description": "サンダーはでんき・ひこうタイプのでんげきポケモンです。英語名はZapdos（サンダー）です。希少地域に適応し、翼型の体つきや黄系の特徴を持ちます。",
       "features": [
         "電気を使った動きや攻撃が得意",
         "翼型の体つきが特徴",
@@ -7212,7 +7212,7 @@
       "hints": [
         "でんき・ひこうタイプ。",
         "分類は「でんげきポケモン」。",
-        "英語名は Zapdos（ザップドス）。"
+        "英語名は Zapdos（サンダー）。"
       ],
       "stats": {
         "power": 5,
@@ -7229,12 +7229,12 @@
       "name": {
         "ja": "ファイヤー",
         "en": "Moltres",
-        "enKana": "モルトレス"
+        "enKana": "ファイヤー"
       },
       "aliases": [
         "ファイヤー",
         "Moltres",
-        "モルトレス",
+        "ファイヤー",
         "moltres"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
@@ -7253,7 +7253,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#146",
-      "description": "ファイヤーはほのお・ひこうタイプのかえんポケモンです。英語名はMoltres（モルトレス）です。希少地域に適応し、翼型の体つきや黄系の特徴を持ちます。",
+      "description": "ファイヤーはほのお・ひこうタイプのかえんポケモンです。英語名はMoltres（ファイヤー）です。希少地域に適応し、翼型の体つきや黄系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "翼型の体つきが特徴",
@@ -7263,7 +7263,7 @@
       "hints": [
         "ほのお・ひこうタイプ。",
         "分類は「かえんポケモン」。",
-        "英語名は Moltres（モルトレス）。"
+        "英語名は Moltres（ファイヤー）。"
       ],
       "stats": {
         "power": 5,
@@ -7280,12 +7280,12 @@
       "name": {
         "ja": "ミニリュウ",
         "en": "Dratini",
-        "enKana": "ドラティーニ"
+        "enKana": "ミニリュウ"
       },
       "aliases": [
         "ミニリュウ",
         "Dratini",
-        "ドラティーニ",
+        "ミニリュウ",
         "dratini"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
@@ -7303,7 +7303,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#147 → #148 → #149",
-      "description": "ミニリュウはドラゴンタイプのドラゴンポケモンです。英語名はDratini（ドラティーニ）です。細長いの体つきや青系の特徴を持ちます。",
+      "description": "ミニリュウはドラゴンタイプのドラゴンポケモンです。英語名はDratini（ミニリュウ）です。細長いの体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "細長いの体つきが特徴",
@@ -7312,7 +7312,7 @@
       "hints": [
         "ドラゴンタイプ。",
         "分類は「ドラゴンポケモン」。",
-        "英語名は Dratini（ドラティーニ）。"
+        "英語名は Dratini（ミニリュウ）。"
       ],
       "stats": {
         "power": 4,
@@ -7329,12 +7329,12 @@
       "name": {
         "ja": "ハクリュー",
         "en": "Dragonair",
-        "enKana": "ドラゴネア"
+        "enKana": "ハクリュー"
       },
       "aliases": [
         "ハクリュー",
         "Dragonair",
-        "ドラゴネア",
+        "ハクリュー",
         "dragonair"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
@@ -7352,7 +7352,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#147 → #148 → #149",
-      "description": "ハクリューはドラゴンタイプのドラゴンポケモンです。英語名はDragonair（ドラゴネア）です。細長いの体つきや青系の特徴を持ちます。",
+      "description": "ハクリューはドラゴンタイプのドラゴンポケモンです。英語名はDragonair（ハクリュー）です。細長いの体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "細長いの体つきが特徴",
@@ -7361,7 +7361,7 @@
       "hints": [
         "ドラゴンタイプ。",
         "分類は「ドラゴンポケモン」。",
-        "英語名は Dragonair（ドラゴネア）。"
+        "英語名は Dragonair（ハクリュー）。"
       ],
       "stats": {
         "power": 4,
@@ -7378,12 +7378,12 @@
       "name": {
         "ja": "カイリュー",
         "en": "Dragonite",
-        "enKana": "ドラゴナイト"
+        "enKana": "カイリュー"
       },
       "aliases": [
         "カイリュー",
         "Dragonite",
-        "ドラゴナイト",
+        "カイリュー",
         "dragonite"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
@@ -7402,7 +7402,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#147 → #148 → #149",
-      "description": "カイリューはドラゴン・ひこうタイプのドラゴンポケモンです。英語名はDragonite（ドラゴナイト）です。二足の体つきや茶系の特徴を持ちます。",
+      "description": "カイリューはドラゴン・ひこうタイプのドラゴンポケモンです。英語名はDragonite（カイリュー）です。二足の体つきや茶系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "二足の体つきが特徴",
@@ -7411,7 +7411,7 @@
       "hints": [
         "ドラゴン・ひこうタイプ。",
         "分類は「ドラゴンポケモン」。",
-        "英語名は Dragonite（ドラゴナイト）。"
+        "英語名は Dragonite（カイリュー）。"
       ],
       "stats": {
         "power": 4,
@@ -7428,12 +7428,12 @@
       "name": {
         "ja": "ミュウツー",
         "en": "Mewtwo",
-        "enKana": "ミューツー"
+        "enKana": "ミュウツー"
       },
       "aliases": [
         "ミュウツー",
         "Mewtwo",
-        "ミューツー",
+        "ミュウツー",
         "mewtwo"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
@@ -7451,7 +7451,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#150",
-      "description": "ミュウツーはエスパータイプのいでんしポケモンです。英語名はMewtwo（ミューツー）です。希少地域に適応し、二足の体つきや紫系の特徴を持ちます。",
+      "description": "ミュウツーはエスパータイプのいでんしポケモンです。英語名はMewtwo（ミュウツー）です。希少地域に適応し、二足の体つきや紫系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "希少地域に適応した暮らしをする",
@@ -7460,7 +7460,7 @@
       "hints": [
         "エスパータイプ。",
         "分類は「いでんしポケモン」。",
-        "英語名は Mewtwo（ミューツー）。"
+        "英語名は Mewtwo（ミュウツー）。"
       ],
       "stats": {
         "power": 5,
@@ -7477,12 +7477,12 @@
       "name": {
         "ja": "ミュウ",
         "en": "Mew",
-        "enKana": "ミュー"
+        "enKana": "ミュウ"
       },
       "aliases": [
         "ミュウ",
         "Mew",
-        "ミュー",
+        "ミュウ",
         "mew"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
@@ -7500,7 +7500,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#151",
-      "description": "ミュウはエスパータイプのしんしゅポケモンです。英語名はMew（ミュー）です。希少地域に適応し、二足の体つきや桃系の特徴を持ちます。",
+      "description": "ミュウはエスパータイプのしんしゅポケモンです。英語名はMew（ミュウ）です。希少地域に適応し、二足の体つきや桃系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "希少地域に適応した暮らしをする",
@@ -7509,7 +7509,7 @@
       "hints": [
         "エスパータイプ。",
         "分類は「しんしゅポケモン」。",
-        "英語名は Mew（ミュー）。"
+        "英語名は Mew（ミュウ）。"
       ],
       "stats": {
         "power": 5,
@@ -7676,12 +7676,12 @@
       "name": {
         "ja": "ヒノアラシ",
         "en": "Cyndaquil",
-        "enKana": "シンダクィル"
+        "enKana": "ヒノアラシ"
       },
       "aliases": [
         "ヒノアラシ",
         "Cyndaquil",
-        "シンダクィル",
+        "ヒノアラシ",
         "cyndaquil"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
@@ -7699,7 +7699,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#155 → #156 → #157",
-      "description": "ヒノアラシはほのおタイプのひねずみポケモンです。英語名はCyndaquil（シンダクィル）です。草地に適応し、人型の体つきや黄系の特徴を持ちます。",
+      "description": "ヒノアラシはほのおタイプのひねずみポケモンです。英語名はCyndaquil（ヒノアラシ）です。草地に適応し、人型の体つきや黄系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "人型の体つきが特徴",
@@ -7709,7 +7709,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ひねずみポケモン」。",
-        "英語名は Cyndaquil（シンダクィル）。"
+        "英語名は Cyndaquil（ヒノアラシ）。"
       ],
       "stats": {
         "power": 4,
@@ -7826,12 +7826,12 @@
       "name": {
         "ja": "ワニノコ",
         "en": "Totodile",
-        "enKana": "トトダイル"
+        "enKana": "ワニノコ"
       },
       "aliases": [
         "ワニノコ",
         "Totodile",
-        "トトダイル",
+        "ワニノコ",
         "totodile"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
@@ -7849,7 +7849,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#158 → #159 → #160",
-      "description": "ワニノコはみずタイプのおおあごポケモンです。英語名はTotodile（トトダイル）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "ワニノコはみずタイプのおおあごポケモンです。英語名はTotodile（ワニノコ）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -7858,7 +7858,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「おおあごポケモン」。",
-        "英語名は Totodile（トトダイル）。"
+        "英語名は Totodile（ワニノコ）。"
       ],
       "stats": {
         "power": 3,
@@ -8871,12 +8871,12 @@
       "name": {
         "ja": "メリープ",
         "en": "Mareep",
-        "enKana": "マリープ"
+        "enKana": "メリープ"
       },
       "aliases": [
         "メリープ",
         "Mareep",
-        "マリープ",
+        "メリープ",
         "mareep"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
@@ -8894,7 +8894,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#179 → #180 → #181",
-      "description": "メリープはでんきタイプのわたげポケモンです。英語名はMareep（マリープ）です。草地に適応し、四足の体つきや白系の特徴を持ちます。",
+      "description": "メリープはでんきタイプのわたげポケモンです。英語名はMareep（メリープ）です。草地に適応し、四足の体つきや白系の特徴を持ちます。",
       "features": [
         "電気を使った動きや攻撃が得意",
         "四足の体つきが特徴",
@@ -8904,7 +8904,7 @@
       "hints": [
         "でんきタイプ。",
         "分類は「わたげポケモン」。",
-        "英語名は Mareep（マリープ）。"
+        "英語名は Mareep（メリープ）。"
       ],
       "stats": {
         "power": 3,
@@ -9621,12 +9621,12 @@
       "name": {
         "ja": "ウパー",
         "en": "Wooper",
-        "enKana": "ウーパー"
+        "enKana": "ウパー"
       },
       "aliases": [
         "ウパー",
         "Wooper",
-        "ウーパー",
+        "ウパー",
         "wooper"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
@@ -9645,7 +9645,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#194 → #195 / #194 → #980",
-      "description": "ウパーはみず・じめんタイプのみずうおポケモンです。英語名はWooper（ウーパー）です。多足の体つきや青系の特徴を持ちます。",
+      "description": "ウパーはみず・じめんタイプのみずうおポケモンです。英語名はWooper（ウパー）です。多足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "多足の体つきが特徴",
@@ -9654,7 +9654,7 @@
       "hints": [
         "みず・じめんタイプ。",
         "分類は「みずうおポケモン」。",
-        "英語名は Wooper（ウーパー）。"
+        "英語名は Wooper（ウパー）。"
       ],
       "stats": {
         "power": 3,
@@ -9721,12 +9721,12 @@
       "name": {
         "ja": "エーフィ",
         "en": "Espeon",
-        "enKana": "エスピオン"
+        "enKana": "エーフィ"
       },
       "aliases": [
         "エーフィ",
         "Espeon",
-        "エスピオン",
+        "エーフィ",
         "espeon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
@@ -9744,7 +9744,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "エーフィはエスパータイプのたいようポケモンです。英語名はEspeon（エスピオン）です。街に適応し、四足の体つきや紫系の特徴を持ちます。",
+      "description": "エーフィはエスパータイプのたいようポケモンです。英語名はEspeon（エーフィ）です。街に適応し、四足の体つきや紫系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "街に適応した暮らしをする",
@@ -9753,7 +9753,7 @@
       "hints": [
         "エスパータイプ。",
         "分類は「たいようポケモン」。",
-        "英語名は Espeon（エスピオン）。"
+        "英語名は Espeon（エーフィ）。"
       ],
       "stats": {
         "power": 3,
@@ -9770,12 +9770,12 @@
       "name": {
         "ja": "ブラッキー",
         "en": "Umbreon",
-        "enKana": "アンブリオン"
+        "enKana": "ブラッキー"
       },
       "aliases": [
         "ブラッキー",
         "Umbreon",
-        "アンブリオン",
+        "ブラッキー",
         "umbreon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
@@ -9793,7 +9793,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "ブラッキーはあくタイプのげっこうポケモンです。英語名はUmbreon（アンブリオン）です。街に適応し、四足の体つきや黒系の特徴を持ちます。",
+      "description": "ブラッキーはあくタイプのげっこうポケモンです。英語名はUmbreon（ブラッキー）です。街に適応し、四足の体つきや黒系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "街に適応した暮らしをする",
@@ -9802,7 +9802,7 @@
       "hints": [
         "あくタイプ。",
         "分類は「げっこうポケモン」。",
-        "英語名は Umbreon（アンブリオン）。"
+        "英語名は Umbreon（ブラッキー）。"
       ],
       "stats": {
         "power": 3,
@@ -10315,12 +10315,12 @@
       "name": {
         "ja": "ハガネール",
         "en": "Steelix",
-        "enKana": "スティーリックス"
+        "enKana": "ハガネール"
       },
       "aliases": [
         "ハガネール",
         "Steelix",
-        "スティーリックス",
+        "ハガネール",
         "steelix"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
@@ -10339,7 +10339,7 @@
       "activity": "夜型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#95 → #208",
-      "description": "ハガネールははがね・じめんタイプのてつへびポケモンです。英語名はSteelix（スティーリックス）です。洞窟に適応し、細長いの体つきや灰系の特徴を持ちます。",
+      "description": "ハガネールははがね・じめんタイプのてつへびポケモンです。英語名はSteelix（ハガネール）です。洞窟に適応し、細長いの体つきや灰系の特徴を持ちます。",
       "features": [
         "細長いの体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -10348,7 +10348,7 @@
       "hints": [
         "はがね・じめんタイプ。",
         "分類は「てつへびポケモン」。",
-        "英語名は Steelix（スティーリックス）。"
+        "英語名は Steelix（ハガネール）。"
       ],
       "stats": {
         "power": 3,
@@ -10514,12 +10514,12 @@
       "name": {
         "ja": "ハッサム",
         "en": "Scizor",
-        "enKana": "シザー"
+        "enKana": "ハッサム"
       },
       "aliases": [
         "ハッサム",
         "Scizor",
-        "シザー",
+        "ハッサム",
         "scizor"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
@@ -10538,7 +10538,7 @@
       "activity": "昼型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#123 → #212 / #123 → #900",
-      "description": "ハッサムはむし・はがねタイプのはさみポケモンです。英語名はScizor（シザー）です。草地に適応し、bug-wingsの体つきや赤系の特徴を持ちます。",
+      "description": "ハッサムはむし・はがねタイプのはさみポケモンです。英語名はScizor（ハッサム）です。草地に適応し、bug-wingsの体つきや赤系の特徴を持ちます。",
       "features": [
         "bug-wingsの体つきが特徴",
         "草地に適応した暮らしをする",
@@ -10547,7 +10547,7 @@
       "hints": [
         "むし・はがねタイプ。",
         "分類は「はさみポケモン」。",
-        "英語名は Scizor（シザー）。"
+        "英語名は Scizor（ハッサム）。"
       ],
       "stats": {
         "power": 3,
@@ -10664,12 +10664,12 @@
       "name": {
         "ja": "ニューラ",
         "en": "Sneasel",
-        "enKana": "スニーゼル"
+        "enKana": "ニューラ"
       },
       "aliases": [
         "ニューラ",
         "Sneasel",
-        "スニーゼル",
+        "ニューラ",
         "sneasel"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
@@ -10688,7 +10688,7 @@
       "activity": "夜型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#215 → #461 / #215 → #903",
-      "description": "ニューラはあく・こおりタイプのかぎづめポケモンです。英語名はSneasel（スニーゼル）です。森に適応し、二足の体つきや黒系の特徴を持ちます。",
+      "description": "ニューラはあく・こおりタイプのかぎづめポケモンです。英語名はSneasel（ニューラ）です。森に適応し、二足の体つきや黒系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "森に適応した暮らしをする",
@@ -10697,7 +10697,7 @@
       "hints": [
         "あく・こおりタイプ。",
         "分類は「かぎづめポケモン」。",
-        "英語名は Sneasel（スニーゼル）。"
+        "英語名は Sneasel（ニューラ）。"
       ],
       "stats": {
         "power": 3,
@@ -10714,12 +10714,12 @@
       "name": {
         "ja": "ヒメグマ",
         "en": "Teddiursa",
-        "enKana": "テディアーサ"
+        "enKana": "ヒメグマ"
       },
       "aliases": [
         "ヒメグマ",
         "Teddiursa",
-        "テディアーサ",
+        "ヒメグマ",
         "teddiursa"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
@@ -10737,7 +10737,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#216 → #217 → #901",
-      "description": "ヒメグマはノーマルタイプのこぐまポケモンです。英語名はTeddiursa（テディアーサ）です。山地に適応し、二足の体つきや茶系の特徴を持ちます。",
+      "description": "ヒメグマはノーマルタイプのこぐまポケモンです。英語名はTeddiursa（ヒメグマ）です。山地に適応し、二足の体つきや茶系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -10746,7 +10746,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「こぐまポケモン」。",
-        "英語名は Teddiursa（テディアーサ）。"
+        "英語名は Teddiursa（ヒメグマ）。"
       ],
       "stats": {
         "power": 3,
@@ -10913,12 +10913,12 @@
       "name": {
         "ja": "ウリムー",
         "en": "Swinub",
-        "enKana": "スワイナブ"
+        "enKana": "ウリムー"
       },
       "aliases": [
         "ウリムー",
         "Swinub",
-        "スワイナブ",
+        "ウリムー",
         "swinub"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
@@ -10937,7 +10937,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#220 → #221 → #473",
-      "description": "ウリムーはこおり・じめんタイプのいのぶたポケモンです。英語名はSwinub（スワイナブ）です。洞窟に適応し、四足の体つきや茶系の特徴を持ちます。",
+      "description": "ウリムーはこおり・じめんタイプのいのぶたポケモンです。英語名はSwinub（ウリムー）です。洞窟に適応し、四足の体つきや茶系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -10946,7 +10946,7 @@
       "hints": [
         "こおり・じめんタイプ。",
         "分類は「いのぶたポケモン」。",
-        "英語名は Swinub（スワイナブ）。"
+        "英語名は Swinub（ウリムー）。"
       ],
       "stats": {
         "power": 3,
@@ -11265,12 +11265,12 @@
       "name": {
         "ja": "エアームド",
         "en": "Skarmory",
-        "enKana": "スカーモリー"
+        "enKana": "エアームド"
       },
       "aliases": [
         "エアームド",
         "Skarmory",
-        "スカーモリー",
+        "エアームド",
         "skarmory"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
@@ -11289,7 +11289,7 @@
       "activity": "昼型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#227",
-      "description": "エアームドははがね・ひこうタイプのよろいどりポケモンです。英語名はSkarmory（スカーモリー）です。翼型の体つきや灰系の特徴を持ちます。",
+      "description": "エアームドははがね・ひこうタイプのよろいどりポケモンです。英語名はSkarmory（エアームド）です。翼型の体つきや灰系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "第2世代・ジョウトに分類されるポケモン"
@@ -11297,7 +11297,7 @@
       "hints": [
         "はがね・ひこうタイプ。",
         "分類は「よろいどりポケモン」。",
-        "英語名は Skarmory（スカーモリー）。"
+        "英語名は Skarmory（エアームド）。"
       ],
       "stats": {
         "power": 3,
@@ -11314,12 +11314,12 @@
       "name": {
         "ja": "デルビル",
         "en": "Houndour",
-        "enKana": "ハウンドアワー"
+        "enKana": "デルビル"
       },
       "aliases": [
         "デルビル",
         "Houndour",
-        "ハウンドアワー",
+        "デルビル",
         "houndour"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
@@ -11338,7 +11338,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#228 → #229",
-      "description": "デルビルはあく・ほのおタイプのダークポケモンです。英語名はHoundour（ハウンドアワー）です。四足の体つきや黒系の特徴を持ちます。",
+      "description": "デルビルはあく・ほのおタイプのダークポケモンです。英語名はHoundour（デルビル）です。四足の体つきや黒系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -11347,7 +11347,7 @@
       "hints": [
         "あく・ほのおタイプ。",
         "分類は「ダークポケモン」。",
-        "英語名は Houndour（ハウンドアワー）。"
+        "英語名は Houndour（デルビル）。"
       ],
       "stats": {
         "power": 4,
@@ -11364,12 +11364,12 @@
       "name": {
         "ja": "ヘルガー",
         "en": "Houndoom",
-        "enKana": "ハウンドゥーム"
+        "enKana": "ヘルガー"
       },
       "aliases": [
         "ヘルガー",
         "Houndoom",
-        "ハウンドゥーム",
+        "ヘルガー",
         "houndoom"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
@@ -11388,7 +11388,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#228 → #229",
-      "description": "ヘルガーはあく・ほのおタイプのダークポケモンです。英語名はHoundoom（ハウンドゥーム）です。四足の体つきや黒系の特徴を持ちます。",
+      "description": "ヘルガーはあく・ほのおタイプのダークポケモンです。英語名はHoundoom（ヘルガー）です。四足の体つきや黒系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -11397,7 +11397,7 @@
       "hints": [
         "あく・ほのおタイプ。",
         "分類は「ダークポケモン」。",
-        "英語名は Houndoom（ハウンドゥーム）。"
+        "英語名は Houndoom（ヘルガー）。"
       ],
       "stats": {
         "power": 4,
@@ -12304,12 +12304,12 @@
       "name": {
         "ja": "バンギラス",
         "en": "Tyranitar",
-        "enKana": "タイラニター"
+        "enKana": "バンギラス"
       },
       "aliases": [
         "バンギラス",
         "Tyranitar",
-        "タイラニター",
+        "バンギラス",
         "tyranitar"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
@@ -12328,7 +12328,7 @@
       "activity": "夜型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#246 → #247 → #248",
-      "description": "バンギラスはいわ・あくタイプのよろいポケモンです。英語名はTyranitar（タイラニター）です。山地に適応し、二足の体つきや緑系の特徴を持ちます。",
+      "description": "バンギラスはいわ・あくタイプのよろいポケモンです。英語名はTyranitar（バンギラス）です。山地に適応し、二足の体つきや緑系の特徴を持ちます。",
       "features": [
         "二足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -12337,7 +12337,7 @@
       "hints": [
         "いわ・あくタイプ。",
         "分類は「よろいポケモン」。",
-        "英語名は Tyranitar（タイラニター）。"
+        "英語名は Tyranitar（バンギラス）。"
       ],
       "stats": {
         "power": 3,
@@ -12506,12 +12506,12 @@
       "name": {
         "ja": "キモリ",
         "en": "Treecko",
-        "enKana": "トゥリーコ"
+        "enKana": "キモリ"
       },
       "aliases": [
         "キモリ",
         "Treecko",
-        "トゥリーコ",
+        "キモリ",
         "treecko"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
@@ -12529,7 +12529,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#252 → #253 → #254",
-      "description": "キモリはくさタイプのもりトカゲポケモンです。英語名はTreecko（トゥリーコ）です。森に適応し、二足の体つきや緑系の特徴を持ちます。",
+      "description": "キモリはくさタイプのもりトカゲポケモンです。英語名はTreecko（キモリ）です。森に適応し、二足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "二足の体つきが特徴",
@@ -12539,7 +12539,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「もりトカゲポケモン」。",
-        "英語名は Treecko（トゥリーコ）。"
+        "英語名は Treecko（キモリ）。"
       ],
       "stats": {
         "power": 3,
@@ -12656,12 +12656,12 @@
       "name": {
         "ja": "アチャモ",
         "en": "Torchic",
-        "enKana": "トーチック"
+        "enKana": "アチャモ"
       },
       "aliases": [
         "アチャモ",
         "Torchic",
-        "トーチック",
+        "アチャモ",
         "torchic"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
@@ -12679,7 +12679,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#255 → #256 → #257",
-      "description": "アチャモはほのおタイプのひよこポケモンです。英語名はTorchic（トーチック）です。草地に適応し、多足の体つきや赤系の特徴を持ちます。",
+      "description": "アチャモはほのおタイプのひよこポケモンです。英語名はTorchic（アチャモ）です。草地に適応し、多足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "多足の体つきが特徴",
@@ -12689,7 +12689,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ひよこポケモン」。",
-        "英語名は Torchic（トーチック）。"
+        "英語名は Torchic（アチャモ）。"
       ],
       "stats": {
         "power": 4,
@@ -12808,12 +12808,12 @@
       "name": {
         "ja": "ミズゴロウ",
         "en": "Mudkip",
-        "enKana": "マッドキップ"
+        "enKana": "ミズゴロウ"
       },
       "aliases": [
         "ミズゴロウ",
         "Mudkip",
-        "マッドキップ",
+        "ミズゴロウ",
         "mudkip"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
@@ -12831,7 +12831,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#258 → #259 → #260",
-      "description": "ミズゴロウはみずタイプのぬまうおポケモンです。英語名はMudkip（マッドキップ）です。四足の体つきや青系の特徴を持ちます。",
+      "description": "ミズゴロウはみずタイプのぬまうおポケモンです。英語名はMudkip（ミズゴロウ）です。四足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "四足の体つきが特徴",
@@ -12840,7 +12840,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「ぬまうおポケモン」。",
-        "英語名は Mudkip（マッドキップ）。"
+        "英語名は Mudkip（ミズゴロウ）。"
       ],
       "stats": {
         "power": 3,
@@ -13907,12 +13907,12 @@
       "name": {
         "ja": "ラルトス",
         "en": "Ralts",
-        "enKana": "ラルツ"
+        "enKana": "ラルトス"
       },
       "aliases": [
         "ラルトス",
         "Ralts",
-        "ラルツ",
+        "ラルトス",
         "ralts"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
@@ -13931,7 +13931,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#280 → #281 → #282 / #280 → #281 → #475",
-      "description": "ラルトスはエスパー・フェアリータイプのきもちポケモンです。英語名はRalts（ラルツ）です。街に適応し、人型の体つきや白系の特徴を持ちます。",
+      "description": "ラルトスはエスパー・フェアリータイプのきもちポケモンです。英語名はRalts（ラルトス）です。街に適応し、人型の体つきや白系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "街に適応した暮らしをする",
@@ -13940,7 +13940,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「きもちポケモン」。",
-        "英語名は Ralts（ラルツ）。"
+        "英語名は Ralts（ラルトス）。"
       ],
       "stats": {
         "power": 3,
@@ -14007,12 +14007,12 @@
       "name": {
         "ja": "サーナイト",
         "en": "Gardevoir",
-        "enKana": "ガーデヴォワール"
+        "enKana": "サーナイト"
       },
       "aliases": [
         "サーナイト",
         "Gardevoir",
-        "ガーデヴォワール",
+        "サーナイト",
         "gardevoir"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
@@ -14031,7 +14031,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#280 → #281 → #282 / #280 → #281 → #475",
-      "description": "サーナイトはエスパー・フェアリータイプのほうようポケモンです。英語名はGardevoir（ガーデヴォワール）です。街に適応し、人型の体つきや白系の特徴を持ちます。",
+      "description": "サーナイトはエスパー・フェアリータイプのほうようポケモンです。英語名はGardevoir（サーナイト）です。街に適応し、人型の体つきや白系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "街に適応した暮らしをする",
@@ -14040,7 +14040,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「ほうようポケモン」。",
-        "英語名は Gardevoir（ガーデヴォワール）。"
+        "英語名は Gardevoir（サーナイト）。"
       ],
       "stats": {
         "power": 3,
@@ -14257,12 +14257,12 @@
       "name": {
         "ja": "ナマケロ",
         "en": "Slakoth",
-        "enKana": "スラコス"
+        "enKana": "ナマケロ"
       },
       "aliases": [
         "ナマケロ",
         "Slakoth",
-        "スラコス",
+        "ナマケロ",
         "slakoth"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
@@ -14280,7 +14280,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#287 → #288 → #289",
-      "description": "ナマケロはノーマルタイプのなまけものポケモンです。英語名はSlakoth（スラコス）です。森に適応し、四足の体つきや茶系の特徴を持ちます。",
+      "description": "ナマケロはノーマルタイプのなまけものポケモンです。英語名はSlakoth（ナマケロ）です。森に適応し、四足の体つきや茶系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "森に適応した暮らしをする",
@@ -14289,7 +14289,7 @@
       "hints": [
         "ノーマルタイプ。",
         "分類は「なまけものポケモン」。",
-        "英語名は Slakoth（スラコス）。"
+        "英語名は Slakoth（ナマケロ）。"
       ],
       "stats": {
         "power": 3,
@@ -14996,12 +14996,12 @@
       "name": {
         "ja": "ヤミラミ",
         "en": "Sableye",
-        "enKana": "セーブルアイ"
+        "enKana": "ヤミラミ"
       },
       "aliases": [
         "ヤミラミ",
         "Sableye",
-        "セーブルアイ",
+        "ヤミラミ",
         "sableye"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
@@ -15020,7 +15020,7 @@
       "activity": "夜型",
       "diet": "不明",
       "evolution": "#302",
-      "description": "ヤミラミはあく・ゴーストタイプのくらやみポケモンです。英語名はSableye（セーブルアイ）です。洞窟に適応し、人型の体つきや紫系の特徴を持ちます。",
+      "description": "ヤミラミはあく・ゴーストタイプのくらやみポケモンです。英語名はSableye（ヤミラミ）です。洞窟に適応し、人型の体つきや紫系の特徴を持ちます。",
       "features": [
         "気配を消したり不思議な行動をしやすい",
         "人型の体つきが特徴",
@@ -15030,7 +15030,7 @@
       "hints": [
         "あく・ゴーストタイプ。",
         "分類は「くらやみポケモン」。",
-        "英語名は Sableye（セーブルアイ）。"
+        "英語名は Sableye（ヤミラミ）。"
       ],
       "stats": {
         "power": 3,
@@ -15047,12 +15047,12 @@
       "name": {
         "ja": "クチート",
         "en": "Mawile",
-        "enKana": "モーウィル"
+        "enKana": "クチート"
       },
       "aliases": [
         "クチート",
         "Mawile",
-        "モーウィル",
+        "クチート",
         "mawile"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
@@ -15071,7 +15071,7 @@
       "activity": "夜型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#303",
-      "description": "クチートははがね・フェアリータイプのあざむきポケモンです。英語名はMawile（モーウィル）です。洞窟に適応し、人型の体つきや黒系の特徴を持ちます。",
+      "description": "クチートははがね・フェアリータイプのあざむきポケモンです。英語名はMawile（クチート）です。洞窟に適応し、人型の体つきや黒系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -15080,7 +15080,7 @@
       "hints": [
         "はがね・フェアリータイプ。",
         "分類は「あざむきポケモン」。",
-        "英語名は Mawile（モーウィル）。"
+        "英語名は Mawile（クチート）。"
       ],
       "stats": {
         "power": 3,
@@ -15097,12 +15097,12 @@
       "name": {
         "ja": "ココドラ",
         "en": "Aron",
-        "enKana": "アロン"
+        "enKana": "ココドラ"
       },
       "aliases": [
         "ココドラ",
         "Aron",
-        "アロン",
+        "ココドラ",
         "aron"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
@@ -15121,7 +15121,7 @@
       "activity": "昼型",
       "diet": "鉱物・硬いえさ",
       "evolution": "#304 → #305 → #306",
-      "description": "ココドラははがね・いわタイプのてつヨロイポケモンです。英語名はAron（アロン）です。山地に適応し、四足の体つきや灰系の特徴を持ちます。",
+      "description": "ココドラははがね・いわタイプのてつヨロイポケモンです。英語名はAron（ココドラ）です。山地に適応し、四足の体つきや灰系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -15130,7 +15130,7 @@
       "hints": [
         "はがね・いわタイプ。",
         "分類は「てつヨロイポケモン」。",
-        "英語名は Aron（アロン）。"
+        "英語名は Aron（ココドラ）。"
       ],
       "stats": {
         "power": 3,
@@ -15247,12 +15247,12 @@
       "name": {
         "ja": "アサナン",
         "en": "Meditite",
-        "enKana": "メディタイト"
+        "enKana": "アサナン"
       },
       "aliases": [
         "アサナン",
         "Meditite",
-        "メディタイト",
+        "アサナン",
         "meditite"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
@@ -15271,7 +15271,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#307 → #308",
-      "description": "アサナンはかくとう・エスパータイプのめいそうポケモンです。英語名はMeditite（メディタイト）です。山地に適応し、人型の体つきや青系の特徴を持ちます。",
+      "description": "アサナンはかくとう・エスパータイプのめいそうポケモンです。英語名はMeditite（アサナン）です。山地に適応し、人型の体つきや青系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "山地に適応した暮らしをする",
@@ -15280,7 +15280,7 @@
       "hints": [
         "かくとう・エスパータイプ。",
         "分類は「めいそうポケモン」。",
-        "英語名は Meditite（メディタイト）。"
+        "英語名は Meditite（アサナン）。"
       ],
       "stats": {
         "power": 4,
@@ -16542,12 +16542,12 @@
       "name": {
         "ja": "チルット",
         "en": "Swablu",
-        "enKana": "スワブル"
+        "enKana": "チルット"
       },
       "aliases": [
         "チルット",
         "Swablu",
-        "スワブル",
+        "チルット",
         "swablu"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
@@ -16566,7 +16566,7 @@
       "activity": "昼型",
       "diet": "木の実・草・小さな虫",
       "evolution": "#333 → #334",
-      "description": "チルットはノーマル・ひこうタイプのわたどりポケモンです。英語名はSwablu（スワブル）です。森に適応し、翼型の体つきや青系の特徴を持ちます。",
+      "description": "チルットはノーマル・ひこうタイプのわたどりポケモンです。英語名はSwablu（チルット）です。森に適応し、翼型の体つきや青系の特徴を持ちます。",
       "features": [
         "翼型の体つきが特徴",
         "森に適応した暮らしをする",
@@ -16575,7 +16575,7 @@
       "hints": [
         "ノーマル・ひこうタイプ。",
         "分類は「わたどりポケモン」。",
-        "英語名は Swablu（スワブル）。"
+        "英語名は Swablu（チルット）。"
       ],
       "stats": {
         "power": 3,
@@ -16592,12 +16592,12 @@
       "name": {
         "ja": "チルタリス",
         "en": "Altaria",
-        "enKana": "アルタリア"
+        "enKana": "チルタリス"
       },
       "aliases": [
         "チルタリス",
         "Altaria",
-        "アルタリア",
+        "チルタリス",
         "altaria"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
@@ -16616,7 +16616,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#333 → #334",
-      "description": "チルタリスはドラゴン・ひこうタイプのハミングポケモンです。英語名はAltaria（アルタリア）です。森に適応し、翼型の体つきや青系の特徴を持ちます。",
+      "description": "チルタリスはドラゴン・ひこうタイプのハミングポケモンです。英語名はAltaria（チルタリス）です。森に適応し、翼型の体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "翼型の体つきが特徴",
@@ -16626,7 +16626,7 @@
       "hints": [
         "ドラゴン・ひこうタイプ。",
         "分類は「ハミングポケモン」。",
-        "英語名は Altaria（アルタリア）。"
+        "英語名は Altaria（チルタリス）。"
       ],
       "stats": {
         "power": 4,
@@ -17932,12 +17932,12 @@
       "name": {
         "ja": "ユキワラシ",
         "en": "Snorunt",
-        "enKana": "スノーラント"
+        "enKana": "ユキワラシ"
       },
       "aliases": [
         "ユキワラシ",
         "Snorunt",
-        "スノーラント",
+        "ユキワラシ",
         "snorunt"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
@@ -17955,7 +17955,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "ユキワラシはこおりタイプのゆきかさポケモンです。英語名はSnorunt（スノーラント）です。洞窟に適応し、人型の体つきや灰系の特徴を持ちます。",
+      "description": "ユキワラシはこおりタイプのゆきかさポケモンです。英語名はSnorunt（ユキワラシ）です。洞窟に適応し、人型の体つきや灰系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -17964,7 +17964,7 @@
       "hints": [
         "こおりタイプ。",
         "分類は「ゆきかさポケモン」。",
-        "英語名は Snorunt（スノーラント）。"
+        "英語名は Snorunt（ユキワラシ）。"
       ],
       "stats": {
         "power": 3,
@@ -17981,12 +17981,12 @@
       "name": {
         "ja": "オニゴーリ",
         "en": "Glalie",
-        "enKana": "グレイリー"
+        "enKana": "オニゴーリ"
       },
       "aliases": [
         "オニゴーリ",
         "Glalie",
-        "グレイリー",
+        "オニゴーリ",
         "glalie"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
@@ -18004,7 +18004,7 @@
       "activity": "夜型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "オニゴーリはこおりタイプのがんめんポケモンです。英語名はGlalie（グレイリー）です。洞窟に適応し、球状の体つきや灰系の特徴を持ちます。",
+      "description": "オニゴーリはこおりタイプのがんめんポケモンです。英語名はGlalie（オニゴーリ）です。洞窟に適応し、球状の体つきや灰系の特徴を持ちます。",
       "features": [
         "球状の体つきが特徴",
         "洞窟に適応した暮らしをする",
@@ -18013,7 +18013,7 @@
       "hints": [
         "こおりタイプ。",
         "分類は「がんめんポケモン」。",
-        "英語名は Glalie（グレイリー）。"
+        "英語名は Glalie（オニゴーリ）。"
       ],
       "stats": {
         "power": 3,
@@ -18030,12 +18030,12 @@
       "name": {
         "ja": "タマザラシ",
         "en": "Spheal",
-        "enKana": "スフィール"
+        "enKana": "タマザラシ"
       },
       "aliases": [
         "タマザラシ",
         "Spheal",
-        "スフィール",
+        "タマザラシ",
         "spheal"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
@@ -18054,7 +18054,7 @@
       "activity": "昼夜どちらも",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#363 → #364 → #365",
-      "description": "タマザラシはこおり・みずタイプのてたたきポケモンです。英語名はSpheal（スフィール）です。海に適応し、魚型の体つきや青系の特徴を持ちます。",
+      "description": "タマザラシはこおり・みずタイプのてたたきポケモンです。英語名はSpheal（タマザラシ）です。海に適応し、魚型の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "魚型の体つきが特徴",
@@ -18064,7 +18064,7 @@
       "hints": [
         "こおり・みずタイプ。",
         "分類は「てたたきポケモン」。",
-        "英語名は Spheal（スフィール）。"
+        "英語名は Spheal（タマザラシ）。"
       ],
       "stats": {
         "power": 3,
@@ -18434,12 +18434,12 @@
       "name": {
         "ja": "タツベイ",
         "en": "Bagon",
-        "enKana": "ベイゴン"
+        "enKana": "タツベイ"
       },
       "aliases": [
         "タツベイ",
         "Bagon",
-        "ベイゴン",
+        "タツベイ",
         "bagon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
@@ -18457,7 +18457,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#371 → #372 → #373",
-      "description": "タツベイはドラゴンタイプのいしあたまポケモンです。英語名はBagon（ベイゴン）です。人型の体つきや青系の特徴を持ちます。",
+      "description": "タツベイはドラゴンタイプのいしあたまポケモンです。英語名はBagon（タツベイ）です。人型の体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "人型の体つきが特徴",
@@ -18466,7 +18466,7 @@
       "hints": [
         "ドラゴンタイプ。",
         "分類は「いしあたまポケモン」。",
-        "英語名は Bagon（ベイゴン）。"
+        "英語名は Bagon（タツベイ）。"
       ],
       "stats": {
         "power": 4,
@@ -19224,12 +19224,12 @@
       "name": {
         "ja": "ナエトル",
         "en": "Turtwig",
-        "enKana": "タートウィッグ"
+        "enKana": "ナエトル"
       },
       "aliases": [
         "ナエトル",
         "Turtwig",
-        "タートウィッグ",
+        "ナエトル",
         "turtwig"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png",
@@ -19247,7 +19247,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#387 → #388 → #389",
-      "description": "ナエトルはくさタイプのわかばポケモンです。英語名はTurtwig（タートウィッグ）です。四足の体つきや緑系の特徴を持ちます。",
+      "description": "ナエトルはくさタイプのわかばポケモンです。英語名はTurtwig（ナエトル）です。四足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "四足の体つきが特徴",
@@ -19256,7 +19256,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「わかばポケモン」。",
-        "英語名は Turtwig（タートウィッグ）。"
+        "英語名は Turtwig（ナエトル）。"
       ],
       "stats": {
         "power": 3,
@@ -19372,12 +19372,12 @@
       "name": {
         "ja": "ヒコザル",
         "en": "Chimchar",
-        "enKana": "チムチャー"
+        "enKana": "ヒコザル"
       },
       "aliases": [
         "ヒコザル",
         "Chimchar",
-        "チムチャー",
+        "ヒコザル",
         "chimchar"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
@@ -19395,7 +19395,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#390 → #391 → #392",
-      "description": "ヒコザルはほのおタイプのこざるポケモンです。英語名はChimchar（チムチャー）です。二足の体つきや茶系の特徴を持ちます。",
+      "description": "ヒコザルはほのおタイプのこざるポケモンです。英語名はChimchar（ヒコザル）です。二足の体つきや茶系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -19404,7 +19404,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「こざるポケモン」。",
-        "英語名は Chimchar（チムチャー）。"
+        "英語名は Chimchar（ヒコザル）。"
       ],
       "stats": {
         "power": 4,
@@ -19521,12 +19521,12 @@
       "name": {
         "ja": "ポッチャマ",
         "en": "Piplup",
-        "enKana": "ピップラップ"
+        "enKana": "ポッチャマ"
       },
       "aliases": [
         "ポッチャマ",
         "Piplup",
-        "ピップラップ",
+        "ポッチャマ",
         "piplup"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
@@ -19544,7 +19544,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#393 → #394 → #395",
-      "description": "ポッチャマはみずタイプのペンギンポケモンです。英語名はPiplup（ピップラップ）です。人型の体つきや青系の特徴を持ちます。",
+      "description": "ポッチャマはみずタイプのペンギンポケモンです。英語名はPiplup（ポッチャマ）です。人型の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "人型の体つきが特徴",
@@ -19553,7 +19553,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「ペンギンポケモン」。",
-        "英語名は Piplup（ピップラップ）。"
+        "英語名は Piplup（ポッチャマ）。"
       ],
       "stats": {
         "power": 3,
@@ -20010,12 +20010,12 @@
       "name": {
         "ja": "コリンク",
         "en": "Shinx",
-        "enKana": "シンクス"
+        "enKana": "コリンク"
       },
       "aliases": [
         "コリンク",
         "Shinx",
-        "シンクス",
+        "コリンク",
         "shinx"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png",
@@ -20033,7 +20033,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#403 → #404 → #405",
-      "description": "コリンクはでんきタイプのせんこうポケモンです。英語名はShinx（シンクス）です。四足の体つきや青系の特徴を持ちます。",
+      "description": "コリンクはでんきタイプのせんこうポケモンです。英語名はShinx（コリンク）です。四足の体つきや青系の特徴を持ちます。",
       "features": [
         "電気を使った動きや攻撃が得意",
         "四足の体つきが特徴",
@@ -20042,7 +20042,7 @@
       "hints": [
         "でんきタイプ。",
         "分類は「せんこうポケモン」。",
-        "英語名は Shinx（シンクス）。"
+        "英語名は Shinx（コリンク）。"
       ],
       "stats": {
         "power": 3,
@@ -21770,12 +21770,12 @@
       "name": {
         "ja": "マネネ",
         "en": "Mime Jr.",
-        "enKana": "マイム・ジュニア"
+        "enKana": "マネネ"
       },
       "aliases": [
         "マネネ",
         "Mime Jr.",
-        "マイム・ジュニア",
+        "マネネ",
         "mime-jr"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
@@ -21794,7 +21794,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "マネネはエスパー・フェアリータイプのマイムポケモンです。英語名はMime Jr.（マイム・ジュニア）です。人型の体つきや桃系の特徴を持ちます。",
+      "description": "マネネはエスパー・フェアリータイプのマイムポケモンです。英語名はMime Jr.（マネネ）です。人型の体つきや桃系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "第4世代・シンオウに分類されるポケモン"
@@ -21802,7 +21802,7 @@
       "hints": [
         "エスパー・フェアリータイプ。",
         "分類は「マイムポケモン」。",
-        "英語名は Mime Jr.（マイム・ジュニア）。"
+        "英語名は Mime Jr.（マネネ）。"
       ],
       "stats": {
         "power": 3,
@@ -21966,12 +21966,12 @@
       "name": {
         "ja": "フカマル",
         "en": "Gible",
-        "enKana": "ギブル"
+        "enKana": "フカマル"
       },
       "aliases": [
         "フカマル",
         "Gible",
-        "ギブル",
+        "フカマル",
         "gible"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
@@ -21990,7 +21990,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#443 → #444 → #445",
-      "description": "フカマルはドラゴン・じめんタイプのりくザメポケモンです。英語名はGible（ギブル）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "フカマルはドラゴン・じめんタイプのりくザメポケモンです。英語名はGible（フカマル）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "二足の体つきが特徴",
@@ -21999,7 +21999,7 @@
       "hints": [
         "ドラゴン・じめんタイプ。",
         "分類は「りくザメポケモン」。",
-        "英語名は Gible（ギブル）。"
+        "英語名は Gible（フカマル）。"
       ],
       "stats": {
         "power": 4,
@@ -22066,12 +22066,12 @@
       "name": {
         "ja": "ガブリアス",
         "en": "Garchomp",
-        "enKana": "ガーチョンプ"
+        "enKana": "ガブリアス"
       },
       "aliases": [
         "ガブリアス",
         "Garchomp",
-        "ガーチョンプ",
+        "ガブリアス",
         "garchomp"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
@@ -22090,7 +22090,7 @@
       "activity": "昼型",
       "diet": "木の実・肉類",
       "evolution": "#443 → #444 → #445",
-      "description": "ガブリアスはドラゴン・じめんタイプのマッハポケモンです。英語名はGarchomp（ガーチョンプ）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "ガブリアスはドラゴン・じめんタイプのマッハポケモンです。英語名はGarchomp（ガブリアス）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "迫力のあるドラゴンらしい存在感がある",
         "二足の体つきが特徴",
@@ -22099,7 +22099,7 @@
       "hints": [
         "ドラゴン・じめんタイプ。",
         "分類は「マッハポケモン」。",
-        "英語名は Garchomp（ガーチョンプ）。"
+        "英語名は Garchomp（ガブリアス）。"
       ],
       "stats": {
         "power": 4,
@@ -23681,12 +23681,12 @@
       "name": {
         "ja": "ユキメノコ",
         "en": "Froslass",
-        "enKana": "フロスラス"
+        "enKana": "ユキメノコ"
       },
       "aliases": [
         "ユキメノコ",
         "Froslass",
-        "フロスラス",
+        "ユキメノコ",
         "froslass"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
@@ -23705,7 +23705,7 @@
       "activity": "夜型",
       "diet": "不明",
       "evolution": "#361 → #362 / #361 → #478",
-      "description": "ユキメノコはこおり・ゴーストタイプのゆきぐにポケモンです。英語名はFroslass（フロスラス）です。腕型の体つきや白系の特徴を持ちます。",
+      "description": "ユキメノコはこおり・ゴーストタイプのゆきぐにポケモンです。英語名はFroslass（ユキメノコ）です。腕型の体つきや白系の特徴を持ちます。",
       "features": [
         "気配を消したり不思議な行動をしやすい",
         "腕型の体つきが特徴",
@@ -23714,7 +23714,7 @@
       "hints": [
         "こおり・ゴーストタイプ。",
         "分類は「ゆきぐにポケモン」。",
-        "英語名は Froslass（フロスラス）。"
+        "英語名は Froslass（ユキメノコ）。"
       ],
       "stats": {
         "power": 3,
@@ -24517,12 +24517,12 @@
       "name": {
         "ja": "ツタージャ",
         "en": "Snivy",
-        "enKana": "スナイヴィー"
+        "enKana": "ツタージャ"
       },
       "aliases": [
         "ツタージャ",
         "Snivy",
-        "スナイヴィー",
+        "ツタージャ",
         "snivy"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png",
@@ -24540,7 +24540,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#495 → #496 → #497",
-      "description": "ツタージャはくさタイプのくさへびポケモンです。英語名はSnivy（スナイヴィー）です。二足の体つきや緑系の特徴を持ちます。",
+      "description": "ツタージャはくさタイプのくさへびポケモンです。英語名はSnivy（ツタージャ）です。二足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "二足の体つきが特徴",
@@ -24549,7 +24549,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「くさへびポケモン」。",
-        "英語名は Snivy（スナイヴィー）。"
+        "英語名は Snivy（ツタージャ）。"
       ],
       "stats": {
         "power": 3,
@@ -24664,12 +24664,12 @@
       "name": {
         "ja": "ポカブ",
         "en": "Tepig",
-        "enKana": "テピッグ"
+        "enKana": "ポカブ"
       },
       "aliases": [
         "ポカブ",
         "Tepig",
-        "テピッグ",
+        "ポカブ",
         "tepig"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
@@ -24687,7 +24687,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#498 → #499 → #500",
-      "description": "ポカブはほのおタイプのひぶたポケモンです。英語名はTepig（テピッグ）です。四足の体つきや赤系の特徴を持ちます。",
+      "description": "ポカブはほのおタイプのひぶたポケモンです。英語名はTepig（ポカブ）です。四足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -24696,7 +24696,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ひぶたポケモン」。",
-        "英語名は Tepig（テピッグ）。"
+        "英語名は Tepig（ポカブ）。"
       ],
       "stats": {
         "power": 4,
@@ -24813,12 +24813,12 @@
       "name": {
         "ja": "ミジュマル",
         "en": "Oshawott",
-        "enKana": "オシャウォット"
+        "enKana": "ミジュマル"
       },
       "aliases": [
         "ミジュマル",
         "Oshawott",
-        "オシャウォット",
+        "ミジュマル",
         "oshawott"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png",
@@ -24836,7 +24836,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#501 → #502 → #503",
-      "description": "ミジュマルはみずタイプのラッコポケモンです。英語名はOshawott（オシャウォット）です。二足の体つきや青系の特徴を持ちます。",
+      "description": "ミジュマルはみずタイプのラッコポケモンです。英語名はOshawott（ミジュマル）です。二足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -24845,7 +24845,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「ラッコポケモン」。",
-        "英語名は Oshawott（オシャウォット）。"
+        "英語名は Oshawott（ミジュマル）。"
       ],
       "stats": {
         "power": 3,
@@ -28465,54 +28465,6 @@
       "level": "normal"
     },
     {
-      "id": 576,
-      "slug": "gothitelle",
-      "name": {
-        "ja": "ゴチルゼル",
-        "en": "Gothitelle",
-        "enKana": "ゴチルゼル"
-      },
-      "aliases": [
-        "ゴチルゼル",
-        "Gothitelle",
-        "ゴチルゼル",
-        "gothitelle"
-      ],
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
-      "region": "イッシュ",
-      "generation": "第5世代",
-      "types": [
-        "エスパー"
-      ],
-      "genus": "てんたいポケモン",
-      "heightM": 1.5,
-      "weightKg": 44,
-      "color": "紫",
-      "shape": "人型",
-      "habitat": "不明",
-      "activity": "昼型",
-      "diet": "木の実・小さな食べ物",
-      "evolution": "#574 → #575 → #576",
-      "description": "ゴチルゼルはエスパータイプのてんたいポケモンです。英語名はGothitelle（ゴチルゼル）です。人型の体つきや紫系の特徴を持ちます。",
-      "features": [
-        "人型の体つきが特徴",
-        "第5世代・イッシュに分類されるポケモン"
-      ],
-      "hints": [
-        "エスパータイプ。",
-        "分類は「てんたいポケモン」。",
-        "英語名は Gothitelle（ゴチルゼル）。"
-      ],
-      "stats": {
-        "power": 3,
-        "speed": 3,
-        "brain": 4,
-        "friend": 3,
-        "rare": 2
-      },
-      "level": "normal"
-    },
-    {
       "id": 577,
       "slug": "solosis",
       "name": {
@@ -32111,12 +32063,12 @@
       "name": {
         "ja": "ハリマロン",
         "en": "Chespin",
-        "enKana": "チェスピン"
+        "enKana": "ハリマロン"
       },
       "aliases": [
         "ハリマロン",
         "Chespin",
-        "チェスピン",
+        "ハリマロン",
         "chespin"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
@@ -32134,7 +32086,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#650 → #651 → #652",
-      "description": "ハリマロンはくさタイプのいがぐりポケモンです。英語名はChespin（チェスピン）です。二足の体つきや緑系の特徴を持ちます。",
+      "description": "ハリマロンはくさタイプのいがぐりポケモンです。英語名はChespin（ハリマロン）です。二足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "二足の体つきが特徴",
@@ -32143,7 +32095,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「いがぐりポケモン」。",
-        "英語名は Chespin（チェスピン）。"
+        "英語名は Chespin（ハリマロン）。"
       ],
       "stats": {
         "power": 3,
@@ -32259,12 +32211,12 @@
       "name": {
         "ja": "フォッコ",
         "en": "Fennekin",
-        "enKana": "フェネキン"
+        "enKana": "フォッコ"
       },
       "aliases": [
         "フォッコ",
         "Fennekin",
-        "フェネキン",
+        "フォッコ",
         "fennekin"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
@@ -32282,7 +32234,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#653 → #654 → #655",
-      "description": "フォッコはほのおタイプのキツネポケモンです。英語名はFennekin（フェネキン）です。四足の体つきや赤系の特徴を持ちます。",
+      "description": "フォッコはほのおタイプのキツネポケモンです。英語名はFennekin（フォッコ）です。四足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -32291,7 +32243,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「キツネポケモン」。",
-        "英語名は Fennekin（フェネキン）。"
+        "英語名は Fennekin（フォッコ）。"
       ],
       "stats": {
         "power": 4,
@@ -32407,12 +32359,12 @@
       "name": {
         "ja": "ケロマツ",
         "en": "Froakie",
-        "enKana": "フローキー"
+        "enKana": "ケロマツ"
       },
       "aliases": [
         "ケロマツ",
         "Froakie",
-        "フローキー",
+        "ケロマツ",
         "froakie"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
@@ -32430,7 +32382,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#656 → #657 → #658",
-      "description": "ケロマツはみずタイプのあわがえるポケモンです。英語名はFroakie（フローキー）です。四足の体つきや青系の特徴を持ちます。",
+      "description": "ケロマツはみずタイプのあわがえるポケモンです。英語名はFroakie（ケロマツ）です。四足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "四足の体つきが特徴",
@@ -32439,7 +32391,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「あわがえるポケモン」。",
-        "英語名は Froakie（フローキー）。"
+        "英語名は Froakie（ケロマツ）。"
       ],
       "stats": {
         "power": 3,
@@ -32505,12 +32457,12 @@
       "name": {
         "ja": "ゲッコウガ",
         "en": "Greninja",
-        "enKana": "グレニンジャ"
+        "enKana": "ゲッコウガ"
       },
       "aliases": [
         "ゲッコウガ",
         "Greninja",
-        "グレニンジャ",
+        "ゲッコウガ",
         "greninja"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
@@ -32529,7 +32481,7 @@
       "activity": "夜型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#656 → #657 → #658",
-      "description": "ゲッコウガはみず・あくタイプのしのびポケモンです。英語名はGreninja（グレニンジャ）です。人型の体つきや青系の特徴を持ちます。",
+      "description": "ゲッコウガはみず・あくタイプのしのびポケモンです。英語名はGreninja（ゲッコウガ）です。人型の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "人型の体つきが特徴",
@@ -32538,7 +32490,7 @@
       "hints": [
         "みず・あくタイプ。",
         "分類は「しのびポケモン」。",
-        "英語名は Greninja（グレニンジャ）。"
+        "英語名は Greninja（ゲッコウガ）。"
       ],
       "stats": {
         "power": 3,
@@ -34565,12 +34517,12 @@
       "name": {
         "ja": "ニンフィア",
         "en": "Sylveon",
-        "enKana": "シルヴィオン"
+        "enKana": "ニンフィア"
       },
       "aliases": [
         "ニンフィア",
         "Sylveon",
-        "シルヴィオン",
+        "ニンフィア",
         "sylveon"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
@@ -34588,7 +34540,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#133 → #134 / #133 → #135 / #133 → #136 / #133 → #196 / #133 → #197 / #133 → #470 / #133 → #471 / #133 → #700",
-      "description": "ニンフィアはフェアリータイプのむすびつきポケモンです。英語名はSylveon（シルヴィオン）です。四足の体つきや桃系の特徴を持ちます。",
+      "description": "ニンフィアはフェアリータイプのむすびつきポケモンです。英語名はSylveon（ニンフィア）です。四足の体つきや桃系の特徴を持ちます。",
       "features": [
         "四足の体つきが特徴",
         "第6世代・カロスに分類されるポケモン"
@@ -34596,7 +34548,7 @@
       "hints": [
         "フェアリータイプ。",
         "分類は「むすびつきポケモン」。",
-        "英語名は Sylveon（シルヴィオン）。"
+        "英語名は Sylveon（ニンフィア）。"
       ],
       "stats": {
         "power": 3,
@@ -35654,12 +35606,12 @@
       "name": {
         "ja": "モクロー",
         "en": "Rowlet",
-        "enKana": "ローレット"
+        "enKana": "モクロー"
       },
       "aliases": [
         "モクロー",
         "Rowlet",
-        "ローレット",
+        "モクロー",
         "rowlet"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
@@ -35678,7 +35630,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#722 → #723 → #724",
-      "description": "モクローはくさ・ひこうタイプのくさばねポケモンです。英語名はRowlet（ローレット）です。翼型の体つきや茶系の特徴を持ちます。",
+      "description": "モクローはくさ・ひこうタイプのくさばねポケモンです。英語名はRowlet（モクロー）です。翼型の体つきや茶系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "翼型の体つきが特徴",
@@ -35687,7 +35639,7 @@
       "hints": [
         "くさ・ひこうタイプ。",
         "分類は「くさばねポケモン」。",
-        "英語名は Rowlet（ローレット）。"
+        "英語名は Rowlet（モクロー）。"
       ],
       "stats": {
         "power": 3,
@@ -35805,12 +35757,12 @@
       "name": {
         "ja": "ニャビー",
         "en": "Litten",
-        "enKana": "リッテン"
+        "enKana": "ニャビー"
       },
       "aliases": [
         "ニャビー",
         "Litten",
-        "リッテン",
+        "ニャビー",
         "litten"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png",
@@ -35828,7 +35780,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#725 → #726 → #727",
-      "description": "ニャビーはほのおタイプのひねこポケモンです。英語名はLitten（リッテン）です。四足の体つきや赤系の特徴を持ちます。",
+      "description": "ニャビーはほのおタイプのひねこポケモンです。英語名はLitten（ニャビー）です。四足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "四足の体つきが特徴",
@@ -35837,7 +35789,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ひねこポケモン」。",
-        "英語名は Litten（リッテン）。"
+        "英語名は Litten（ニャビー）。"
       ],
       "stats": {
         "power": 4,
@@ -35953,12 +35905,12 @@
       "name": {
         "ja": "アシマリ",
         "en": "Popplio",
-        "enKana": "ポプリオ"
+        "enKana": "アシマリ"
       },
       "aliases": [
         "アシマリ",
         "Popplio",
-        "ポプリオ",
+        "アシマリ",
         "popplio"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png",
@@ -35976,7 +35928,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#728 → #729 → #730",
-      "description": "アシマリはみずタイプのあしかポケモンです。英語名はPopplio（ポプリオ）です。魚型の体つきや青系の特徴を持ちます。",
+      "description": "アシマリはみずタイプのあしかポケモンです。英語名はPopplio（アシマリ）です。魚型の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "魚型の体つきが特徴",
@@ -35985,7 +35937,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「あしかポケモン」。",
-        "英語名は Popplio（ポプリオ）。"
+        "英語名は Popplio（アシマリ）。"
       ],
       "stats": {
         "power": 3,
@@ -38409,12 +38361,12 @@
       "name": {
         "ja": "ミミッキュ",
         "en": "Mimikyu",
-        "enKana": "ミミキュー"
+        "enKana": "ミミッキュ"
       },
       "aliases": [
         "ミミッキュ",
         "Mimikyu",
-        "ミミキュー",
+        "ミミッキュ",
         "mimikyu"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
@@ -38433,7 +38385,7 @@
       "activity": "夜型",
       "diet": "不明",
       "evolution": "#778",
-      "description": "ミミッキュはゴースト・フェアリータイプのばけのかわポケモンです。英語名はMimikyu（ミミキュー）です。細長いの体つきや黄系の特徴を持ちます。",
+      "description": "ミミッキュはゴースト・フェアリータイプのばけのかわポケモンです。英語名はMimikyu（ミミッキュ）です。細長いの体つきや黄系の特徴を持ちます。",
       "features": [
         "気配を消したり不思議な行動をしやすい",
         "細長いの体つきが特徴",
@@ -38442,7 +38394,7 @@
       "hints": [
         "ゴースト・フェアリータイプ。",
         "分類は「ばけのかわポケモン」。",
-        "英語名は Mimikyu（ミミキュー）。"
+        "英語名は Mimikyu（ミミッキュ）。"
       ],
       "stats": {
         "power": 3,
@@ -39988,12 +39940,12 @@
       "name": {
         "ja": "サルノリ",
         "en": "Grookey",
-        "enKana": "グルーキー"
+        "enKana": "サルノリ"
       },
       "aliases": [
         "サルノリ",
         "Grookey",
-        "グルーキー",
+        "サルノリ",
         "grookey"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png",
@@ -40011,7 +39963,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#810 → #811 → #812",
-      "description": "サルノリはくさタイプのこざるポケモンです。英語名はGrookey（グルーキー）です。二足の体つきや緑系の特徴を持ちます。",
+      "description": "サルノリはくさタイプのこざるポケモンです。英語名はGrookey（サルノリ）です。二足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "二足の体つきが特徴",
@@ -40020,7 +39972,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「こざるポケモン」。",
-        "英語名は Grookey（グルーキー）。"
+        "英語名は Grookey（サルノリ）。"
       ],
       "stats": {
         "power": 3,
@@ -40135,12 +40087,12 @@
       "name": {
         "ja": "ヒバニー",
         "en": "Scorbunny",
-        "enKana": "スコーバニー"
+        "enKana": "ヒバニー"
       },
       "aliases": [
         "ヒバニー",
         "Scorbunny",
-        "スコーバニー",
+        "ヒバニー",
         "scorbunny"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
@@ -40158,7 +40110,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#813 → #814 → #815",
-      "description": "ヒバニーはほのおタイプのうさぎポケモンです。英語名はScorbunny（スコーバニー）です。二足の体つきや白系の特徴を持ちます。",
+      "description": "ヒバニーはほのおタイプのうさぎポケモンです。英語名はScorbunny（ヒバニー）です。二足の体つきや白系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -40167,7 +40119,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「うさぎポケモン」。",
-        "英語名は Scorbunny（スコーバニー）。"
+        "英語名は Scorbunny（ヒバニー）。"
       ],
       "stats": {
         "power": 4,
@@ -40233,12 +40185,12 @@
       "name": {
         "ja": "エースバーン",
         "en": "Cinderace",
-        "enKana": "シンダレース"
+        "enKana": "エースバーン"
       },
       "aliases": [
         "エースバーン",
         "Cinderace",
-        "シンダレース",
+        "エースバーン",
         "cinderace"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
@@ -40256,7 +40208,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#813 → #814 → #815",
-      "description": "エースバーンはほのおタイプのストライカーポケモンです。英語名はCinderace（シンダレース）です。二足の体つきや白系の特徴を持ちます。",
+      "description": "エースバーンはほのおタイプのストライカーポケモンです。英語名はCinderace（エースバーン）です。二足の体つきや白系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -40265,7 +40217,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「ストライカーポケモン」。",
-        "英語名は Cinderace（シンダレース）。"
+        "英語名は Cinderace（エースバーン）。"
       ],
       "stats": {
         "power": 4,
@@ -40282,12 +40234,12 @@
       "name": {
         "ja": "メッソン",
         "en": "Sobble",
-        "enKana": "ソブル"
+        "enKana": "メッソン"
       },
       "aliases": [
         "メッソン",
         "Sobble",
-        "ソブル",
+        "メッソン",
         "sobble"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png",
@@ -40305,7 +40257,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#816 → #817 → #818",
-      "description": "メッソンはみずタイプのみずとかげポケモンです。英語名はSobble（ソブル）です。四足の体つきや青系の特徴を持ちます。",
+      "description": "メッソンはみずタイプのみずとかげポケモンです。英語名はSobble（メッソン）です。四足の体つきや青系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "四足の体つきが特徴",
@@ -40314,7 +40266,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「みずとかげポケモン」。",
-        "英語名は Sobble（ソブル）。"
+        "英語名は Sobble（メッソン）。"
       ],
       "stats": {
         "power": 3,
@@ -42728,12 +42680,12 @@
       "name": {
         "ja": "バリコオル",
         "en": "Mr. Rime",
-        "enKana": "ミスター・ライム"
+        "enKana": "バリコオル"
       },
       "aliases": [
         "バリコオル",
         "Mr. Rime",
-        "ミスター・ライム",
+        "バリコオル",
         "mr-rime"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
@@ -42752,7 +42704,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#439 → #122 → #866",
-      "description": "バリコオルはこおり・エスパータイプのコメディアンポケモンです。英語名はMr. Rime（ミスター・ライム）です。人型の体つきや紫系の特徴を持ちます。",
+      "description": "バリコオルはこおり・エスパータイプのコメディアンポケモンです。英語名はMr. Rime（バリコオル）です。人型の体つきや紫系の特徴を持ちます。",
       "features": [
         "人型の体つきが特徴",
         "第8世代・ガラルに分類されるポケモン"
@@ -42760,7 +42712,7 @@
       "hints": [
         "こおり・エスパータイプ。",
         "分類は「コメディアンポケモン」。",
-        "英語名は Mr. Rime（ミスター・ライム）。"
+        "英語名は Mr. Rime（バリコオル）。"
       ],
       "stats": {
         "power": 3,
@@ -44697,12 +44649,12 @@
       "name": {
         "ja": "ニャオハ",
         "en": "Sprigatito",
-        "enKana": "スプリガティート"
+        "enKana": "ニャオハ"
       },
       "aliases": [
         "ニャオハ",
         "Sprigatito",
-        "スプリガティート",
+        "ニャオハ",
         "sprigatito"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/906.png",
@@ -44720,7 +44672,7 @@
       "activity": "昼型",
       "diet": "日光・水・栄養のある土",
       "evolution": "#906 → #907 → #908",
-      "description": "ニャオハはくさタイプのGrass Cat Pokémonです。英語名はSprigatito（スプリガティート）です。四足の体つきや緑系の特徴を持ちます。",
+      "description": "ニャオハはくさタイプのGrass Cat Pokémonです。英語名はSprigatito（ニャオハ）です。四足の体つきや緑系の特徴を持ちます。",
       "features": [
         "植物や日光と関係が深い",
         "四足の体つきが特徴",
@@ -44729,7 +44681,7 @@
       "hints": [
         "くさタイプ。",
         "分類は「Grass Cat Pokémon」。",
-        "英語名は Sprigatito（スプリガティート）。"
+        "英語名は Sprigatito（ニャオハ）。"
       ],
       "stats": {
         "power": 3,
@@ -44845,12 +44797,12 @@
       "name": {
         "ja": "ホゲータ",
         "en": "Fuecoco",
-        "enKana": "フエココ"
+        "enKana": "ホゲータ"
       },
       "aliases": [
         "ホゲータ",
         "Fuecoco",
-        "フエココ",
+        "ホゲータ",
         "fuecoco"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png",
@@ -44868,7 +44820,7 @@
       "activity": "昼型",
       "diet": "木の実・小さな食べ物",
       "evolution": "#909 → #910 → #911",
-      "description": "ホゲータはほのおタイプのFire Croc Pokémonです。英語名はFuecoco（フエココ）です。二足の体つきや赤系の特徴を持ちます。",
+      "description": "ホゲータはほのおタイプのFire Croc Pokémonです。英語名はFuecoco（ホゲータ）です。二足の体つきや赤系の特徴を持ちます。",
       "features": [
         "熱や炎に関係する特徴を持つ",
         "二足の体つきが特徴",
@@ -44877,7 +44829,7 @@
       "hints": [
         "ほのおタイプ。",
         "分類は「Fire Croc Pokémon」。",
-        "英語名は Fuecoco（フエココ）。"
+        "英語名は Fuecoco（ホゲータ）。"
       ],
       "stats": {
         "power": 4,
@@ -44994,12 +44946,12 @@
       "name": {
         "ja": "クワッス",
         "en": "Quaxly",
-        "enKana": "クワックスリー"
+        "enKana": "クワッス"
       },
       "aliases": [
         "クワッス",
         "Quaxly",
-        "クワックスリー",
+        "クワッス",
         "quaxly"
       ],
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/912.png",
@@ -45017,7 +44969,7 @@
       "activity": "昼型",
       "diet": "水草・小魚・水辺のえさ",
       "evolution": "#912 → #913 → #914",
-      "description": "クワッスはみずタイプのDuckling Pokémonです。英語名はQuaxly（クワックスリー）です。二足の体つきや白系の特徴を持ちます。",
+      "description": "クワッスはみずタイプのDuckling Pokémonです。英語名はQuaxly（クワッス）です。二足の体つきや白系の特徴を持ちます。",
       "features": [
         "水辺での行動に強い",
         "二足の体つきが特徴",
@@ -45026,7 +44978,7 @@
       "hints": [
         "みずタイプ。",
         "分類は「Duckling Pokémon」。",
-        "英語名は Quaxly（クワックスリー）。"
+        "英語名は Quaxly（クワッス）。"
       ],
       "stats": {
         "power": 3,
