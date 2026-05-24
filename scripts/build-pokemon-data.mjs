@@ -49,6 +49,7 @@ function cap(s) { return String(s || "").charAt(0).toUpperCase() + String(s || "
 function idFromSpeciesUrl(url) { return Number(url.match(/\/pokemon-species\/(\d+)\//)?.[1] || 0); }
 function imageUrl(id) { return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`; }
 function slugKey(value) { return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, ""); }
+function englishLabel(name) { return name.enKana ? `${name.en}（${name.enKana}）` : name.en; }
 
 function inferActivity(types, habitat) {
   if (types.includes("ゴースト") || types.includes("あく")) return "夜型";
@@ -95,16 +96,18 @@ function makeFeatures(p) {
   return [...new Set(f)].slice(0, 4);
 }
 function makeHints(p) {
-  return [
+  const hints = [
     `${p.types.join("・")}タイプ。`,
-    p.genus && p.genus !== "不明" ? `分類は「${p.genus}」。` : `${p.region}地方に関係が深い。`,
-    `英語名は ${p.name.en}（${p.name.enKana}）。`
+    p.genus && p.genus !== "不明" ? `分類は「${p.genus}」。` : `${p.region}地方に関係が深い。`
   ];
+  if (p.name.enKana) hints.push(`英語名は ${englishLabel(p.name)}。`);
+  else hints.push(`英語名は ${p.name.en}。`);
+  return hints;
 }
 function makeDescription(p) {
   const typeText = p.types.join("・");
   const habitatText = p.habitat && p.habitat !== "不明" ? `${p.habitat}に適応し、` : "";
-  return `${p.name.ja}は${typeText}タイプの${p.genus}です。英語名は${p.name.en}（${p.name.enKana}）です。${habitatText}${p.shape}の体つきや${p.color}系の特徴を持ちます。`;
+  return `${p.name.ja}は${typeText}タイプの${p.genus}です。英語名は${englishLabel(p.name)}です。${habitatText}${p.shape}の体つきや${p.color}系の特徴を持ちます。`;
 }
 async function buildEvolutionText(species) {
   if (!species.evolution_chain?.url) return "進化情報なし";
@@ -128,12 +131,12 @@ async function buildOne(id, kanaOverrides) {
   const jaName = pickJa(species.names, cap(species.name));
   const enName = pickEn(species.names, cap(species.name));
   const key = slugKey(species.name);
-  const enKana = kanaOverrides[key] || kanaOverrides[slugKey(enName)] || jaName;
+  const enKana = kanaOverrides[key] || kanaOverrides[slugKey(enName)] || "";
   const obj = {
     id,
     slug: species.name,
     name: { ja: jaName, en: enName, enKana },
-    aliases: [jaName, enName, enKana, species.name].filter(Boolean),
+    aliases: [jaName, enName, species.name].filter(Boolean),
     imageUrl: imageUrl(id),
     region: REGION_BY_GEN[genName] || "不明",
     generation: GEN_JA[genName] || genName || "不明",
@@ -181,12 +184,12 @@ async function main() {
   pokemon.sort((a,b)=>a.id-b.id);
   await writeFile(OUT, JSON.stringify({
     meta: {
-      schemaVersion: 3,
+      schemaVersion: 4,
       mode: "full",
       count: pokemon.length,
-      source: "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
+      source: "PokéAPI structured data + official-artwork sprite URL",
       generatedAt: new Date().toISOString(),
-      note: "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
+      note: "enKanaは確認済み辞書にある場合だけ出力します。未確認の英語読みカナは空欄です。"
     },
     pokemon
   }, null, 2), "utf8");
