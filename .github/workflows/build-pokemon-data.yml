@@ -2,6 +2,12 @@ name: Build Pokemon Data JSON
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - package.json
+      - scripts/build-pokemon-data.mjs
+      - scripts/en-name-kana-overrides.json
+      - .github/workflows/build-pokemon-data.yml
 
 permissions:
   contents: write
