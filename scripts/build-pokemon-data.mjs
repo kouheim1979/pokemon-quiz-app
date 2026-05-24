@@ -5,6 +5,7 @@ import path from "node:path";
 const API = "https://pokeapi.co/api/v2";
 const OUT = path.resolve("pokemon-data.json");
 const CACHE_DIR = path.resolve(".pokeapi-cache");
+const OVERRIDE_FILE = path.resolve("scripts/en-name-kana-overrides.json");
 const MAX_SPECIES = Number(process.env.POKEMON_MAX_SPECIES || 1025);
 const CONCURRENCY = Number(process.env.POKEAPI_CONCURRENCY || 8);
 
@@ -18,6 +19,11 @@ const SHAPE_JA = { ball:"球状", squiggle:"細長い", fish:"魚型", arms:"腕
 const HABITAT_JA = { cave:"洞窟", forest:"森", grassland:"草地", mountain:"山地", rare:"希少地域", rough_terrain:"荒地", sea:"海", urban:"街", waters_edge:"水辺" };
 const REGION_BY_GEN = { "generation-i":"カントー", "generation-ii":"ジョウト", "generation-iii":"ホウエン", "generation-iv":"シンオウ", "generation-v":"イッシュ", "generation-vi":"カロス", "generation-vii":"アローラ", "generation-viii":"ガラル", "generation-ix":"パルデア" };
 const GEN_JA = { "generation-i":"第1世代", "generation-ii":"第2世代", "generation-iii":"第3世代", "generation-iv":"第4世代", "generation-v":"第5世代", "generation-vi":"第6世代", "generation-vii":"第7世代", "generation-viii":"第8世代", "generation-ix":"第9世代" };
+
+async function loadKanaOverrides() {
+  if (!existsSync(OVERRIDE_FILE)) return {};
+  return JSON.parse(await readFile(OVERRIDE_FILE, "utf8"));
+}
 
 async function fetchJson(url) {
   await mkdir(CACHE_DIR, { recursive: true });
@@ -42,6 +48,7 @@ function genusJa(genera, fallback) {
 function cap(s) { return String(s || "").charAt(0).toUpperCase() + String(s || "").slice(1); }
 function idFromSpeciesUrl(url) { return Number(url.match(/\/pokemon-species\/(\d+)\//)?.[1] || 0); }
 function imageUrl(id) { return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`; }
+function slugKey(value) { return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, ""); }
 
 function inferActivity(types, habitat) {
   if (types.includes("ゴースト") || types.includes("あく")) return "夜型";
@@ -113,18 +120,20 @@ async function buildEvolutionText(species) {
   walk(chain.chain, []);
   return paths.map(path => path.join(" → ")).join(" / ");
 }
-async function buildOne(id) {
+async function buildOne(id, kanaOverrides) {
   const species = await fetchJson(`${API}/pokemon-species/${id}/`);
   const pokemon = await fetchJson(`${API}/pokemon/${id}/`);
   const types = pokemon.types.sort((a,b)=>a.slot-b.slot).map(t => TYPE_JA[t.type.name] || t.type.name);
   const genName = species.generation?.name || "";
   const jaName = pickJa(species.names, cap(species.name));
   const enName = pickEn(species.names, cap(species.name));
+  const key = slugKey(species.name);
+  const enKana = kanaOverrides[key] || kanaOverrides[slugKey(enName)] || jaName;
   const obj = {
     id,
     slug: species.name,
-    name: { ja: jaName, en: enName, enKana: jaName },
-    aliases: [jaName, enName, species.name].filter(Boolean),
+    name: { ja: jaName, en: enName, enKana },
+    aliases: [jaName, enName, enKana, species.name].filter(Boolean),
     imageUrl: imageUrl(id),
     region: REGION_BY_GEN[genName] || "不明",
     generation: GEN_JA[genName] || genName || "不明",
@@ -166,17 +175,18 @@ async function mapLimit(items, limit, fn) {
   return out.filter(Boolean);
 }
 async function main() {
+  const kanaOverrides = await loadKanaOverrides();
   const ids = Array.from({ length: MAX_SPECIES }, (_, i) => i + 1);
-  const pokemon = await mapLimit(ids, CONCURRENCY, buildOne);
+  const pokemon = await mapLimit(ids, CONCURRENCY, id => buildOne(id, kanaOverrides));
   pokemon.sort((a,b)=>a.id-b.id);
   await writeFile(OUT, JSON.stringify({
     meta: {
       schemaVersion: 3,
       mode: "full",
       count: pokemon.length,
-      source: "PokéAPI structured data + official-artwork sprite URL",
+      source: "PokéAPI structured data + official-artwork sprite URL + kana override dictionary",
       generatedAt: new Date().toISOString(),
-      note: "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。"
+      note: "説明文は公式図鑑文の転載ではなく、構造化データから生成した学習用要約です。enKanaは scripts/en-name-kana-overrides.json で上書きできます。"
     },
     pokemon
   }, null, 2), "utf8");
