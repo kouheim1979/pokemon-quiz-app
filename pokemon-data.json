@@ -2,9 +2,9 @@
   "meta": {
     "schemaVersion": 4,
     "mode": "full",
-    "count": 1024,
+    "count": 1025,
     "source": "PokéAPI structured data + official-artwork sprite URL",
-    "generatedAt": "2026-06-06T05:31:45.810Z",
+    "generatedAt": "2026-09-03T07:17:42.895Z",
     "note": "enKanaは確認済み辞書にある場合だけ出力します。未確認の英語読みカナは空欄です。"
   },
   "pokemon": [
@@ -18148,6 +18148,55 @@
       "stats": {
         "power": 4,
         "speed": 3,
+        "brain": 3,
+        "friend": 3,
+        "rare": 2
+      },
+      "level": "normal"
+    },
+    {
+      "id": 373,
+      "slug": "salamence",
+      "name": {
+        "ja": "ボーマンダ",
+        "en": "Salamence",
+        "enKana": ""
+      },
+      "aliases": [
+        "ボーマンダ",
+        "Salamence",
+        "salamence"
+      ],
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+      "region": "ホウエン",
+      "generation": "第3世代",
+      "types": [
+        "ドラゴン",
+        "ひこう"
+      ],
+      "genus": "ドラゴンポケモン",
+      "heightM": 1.5,
+      "weightKg": 102.6,
+      "color": "青",
+      "shape": "四足",
+      "habitat": "不明",
+      "activity": "昼型",
+      "diet": "木の実・肉類",
+      "evolution": "#371 → #372 → #373",
+      "description": "ボーマンダはドラゴン・ひこうタイプのドラゴンポケモンです。英語名はSalamenceです。四足の体つきや青系の特徴を持ちます。",
+      "features": [
+        "迫力のあるドラゴンらしい存在感がある",
+        "四足の体つきが特徴",
+        "第3世代・ホウエンに分類されるポケモン"
+      ],
+      "hints": [
+        "ドラゴン・ひこうタイプ。",
+        "分類は「ドラゴンポケモン」。",
+        "英語名は Salamence。"
+      ],
+      "stats": {
+        "power": 4,
+        "speed": 4,
         "brain": 3,
         "friend": 3,
         "rare": 2
